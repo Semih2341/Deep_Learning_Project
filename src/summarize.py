@@ -1,0 +1,80 @@
+"""Collect per-subject result files into a CSV and a Markdown table.
+
+Usage:
+    python src/summarize.py --results-dir results
+"""
+
+import argparse
+import json
+from pathlib import Path
+
+import pandas as pd
+
+TARGET_SUBJECT_3 = 83.7  # braindecode tutorial, 100 epochs
+PAPER_MEAN = 73.7  # Schirrmeister et al. 2017, ShallowConvNet on BCIC IV 2a
+
+
+def load_runs(results_dir):
+    rows = []
+    for f in sorted(Path(results_dir).glob("*_seed*/subject_*.json")):
+        r = json.loads(f.read_text())
+        rows.append(
+            {
+                "mode": r["mode"],
+                "seed": r["seed"],
+                "subject": r["subject"],
+                "test_acc": 100 * r["test_acc"],
+                "train_acc": 100 * r["train_acc"],
+                "selected_epoch": r["selected_epoch"],
+                "epochs_run": r["n_epochs_run"],
+                "train_time_s": r["train_time_s"],
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def to_markdown(df):
+    lines = []
+    for (mode, seed), g in df.groupby(["mode", "seed"]):
+        g = g.sort_values("subject")
+        lines.append(f"### mode = `{mode}`, seed = {seed}\n")
+        lines.append("| Subject | Test acc (%) | Train acc (%) | Selected epoch | Epochs run |")
+        lines.append("|---|---|---|---|---|")
+        for _, r in g.iterrows():
+            lines.append(
+                f"| {r.subject} | {r.test_acc:.2f} | {r.train_acc:.2f} "
+                f"| {r.selected_epoch} | {r.epochs_run} |"
+            )
+        lines.append(
+            f"| **Mean ± std** | **{g.test_acc.mean():.2f} ± {g.test_acc.std():.2f}** "
+            f"| {g.train_acc.mean():.2f} | | |"
+        )
+        lines.append("")
+        if (g.subject == 3).any():
+            s3 = g.loc[g.subject == 3, "test_acc"].item()
+            lines.append(f"Subject 3: {s3:.2f}% (target {TARGET_SUBJECT_3}%)  ")
+        if len(g) == 9:
+            lines.append(f"Mean over 9 subjects: {g.test_acc.mean():.2f}% (paper {PAPER_MEAN}%)")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--results-dir", default="results")
+    args = parser.parse_args()
+
+    df = load_runs(args.results_dir)
+    if df.empty:
+        print("No result files found.")
+        return
+    df.sort_values(["mode", "seed", "subject"]).to_csv(
+        Path(args.results_dir) / "summary.csv", index=False, float_format="%.2f"
+    )
+    md = to_markdown(df)
+    (Path(args.results_dir) / "summary.md").write_text(md)
+    print(md)
+
+
+if __name__ == "__main__":
+    main()

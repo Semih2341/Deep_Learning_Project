@@ -1,0 +1,4 @@
+# Tested with: python 3.11, torch 2.14.1, braindecode 1.8.1, moabb 1.7.2, mne 1.13.2, skorch 1.4.0
+# On Colab/Kaggle keep the pre-installed torch and install only:
+braindecode==1.8.1
+moabb==1.7.2
