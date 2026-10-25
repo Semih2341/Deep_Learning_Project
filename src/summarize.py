@@ -11,7 +11,8 @@ from pathlib import Path
 import pandas as pd
 
 TARGET_SUBJECT_3 = 83.7  # braindecode tutorial, 100 epochs
-PAPER_MEAN = 73.7  # Schirrmeister et al. 2017, ShallowConvNet on BCIC IV 2a
+# Schirrmeister et al. 2017, Table 2, ShallowConvNet on BCIC IV 2a
+PAPER_MEAN = {0.0: 73.7, 4.0: 71.9}  # by high-pass cut-off (0-38 Hz / 4-38 Hz)
 
 
 def load_runs(results_dir):
@@ -22,6 +23,7 @@ def load_runs(results_dir):
             {
                 "mode": r["mode"],
                 "seed": r["seed"],
+                "low_cut_hz": r.get("low_cut_hz", 4.0),
                 "subject": r["subject"],
                 "test_acc": 100 * r["test_acc"],
                 "train_acc": 100 * r["train_acc"],
@@ -33,11 +35,34 @@ def load_runs(results_dir):
     return pd.DataFrame(rows)
 
 
+def seed_summary(df):
+    """Mean over subjects for each seed, then mean +- std over seeds."""
+    lines = [
+        "### Across seeds\n",
+        "| Mode | Band | Seeds | Mean acc (%) over seeds | Subject 3 (%) |",
+        "|---|---|---|---|---|",
+    ]
+    for (mode, low_cut), g in df.groupby(["mode", "low_cut_hz"]):
+        per_seed = g.groupby("seed").filter(lambda x: len(x) == 9).groupby("seed")
+        means = per_seed.test_acc.mean()
+        s3 = g[g.subject == 3].test_acc
+        if means.empty:
+            continue
+        std = f" ± {means.std():.2f}" if len(means) > 1 else ""
+        s3_std = f" ± {s3.std():.2f}" if len(s3) > 1 else ""
+        lines.append(
+            f"| {mode} | {low_cut:g}-38 Hz | {len(means)} | {means.mean():.2f}{std} "
+            f"| {s3.mean():.2f}{s3_std} |"
+        )
+    lines.append("")
+    return lines
+
+
 def to_markdown(df):
     lines = []
-    for (mode, seed), g in df.groupby(["mode", "seed"]):
+    for (mode, low_cut, seed), g in df.groupby(["mode", "low_cut_hz", "seed"]):
         g = g.sort_values("subject")
-        lines.append(f"### mode = `{mode}`, seed = {seed}\n")
+        lines.append(f"### mode = `{mode}`, band = {low_cut:g}-38 Hz, seed = {seed}\n")
         lines.append("| Subject | Test acc (%) | Train acc (%) | Selected epoch | Epochs run |")
         lines.append("|---|---|---|---|---|")
         for _, r in g.iterrows():
@@ -54,8 +79,12 @@ def to_markdown(df):
             s3 = g.loc[g.subject == 3, "test_acc"].item()
             lines.append(f"Subject 3: {s3:.2f}% (target {TARGET_SUBJECT_3}%)  ")
         if len(g) == 9:
-            lines.append(f"Mean over 9 subjects: {g.test_acc.mean():.2f}% (paper {PAPER_MEAN}%)")
+            lines.append(
+                f"Mean over 9 subjects: {g.test_acc.mean():.2f}% "
+                f"(paper, same band: {PAPER_MEAN.get(low_cut, 'n/a')}%)"
+            )
         lines.append("")
+    lines += seed_summary(df)
     return "\n".join(lines)
 
 
@@ -68,7 +97,7 @@ def main():
     if df.empty:
         print("No result files found.")
         return
-    df.sort_values(["mode", "seed", "subject"]).to_csv(
+    df.sort_values(["mode", "low_cut_hz", "seed", "subject"]).to_csv(
         Path(args.results_dir) / "summary.csv", index=False, float_format="%.2f"
     )
     md = to_markdown(df)

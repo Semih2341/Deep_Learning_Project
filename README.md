@@ -42,6 +42,7 @@ cached on Google Drive.
 pip install torch -r requirements.txt
 python src/reproduce.py --subjects all --mode tutorial --epochs 100
 python src/reproduce.py --subjects all --mode clean --epochs 100
+python src/reproduce.py --subjects all --mode clean --epochs 100 --low-cut 0   # paper band 0-38 Hz
 python src/summarize.py
 ```
 
@@ -81,11 +82,63 @@ All later milestones use only the clean protocol.
 
 ### Results
 
-<!-- RESULTS -->
+All numbers are trial-wise accuracy (%) on the held-out session `1test` (288 trials per subject,
+chance level 25 %), seed 20200220, 4–38 Hz band as in the tutorial.
+
+| Subject | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **Mean ± std** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| `tutorial` (early stopping on test) | 81.94 | 46.53 | 81.60 | 63.54 | 49.31 | 49.65 | 85.76 | 77.43 | 79.51 | **68.36 ± 16.13** |
+| `clean` (fixed 100 epochs) | 80.56 | 43.06 | **84.38** | 66.67 | 59.72 | 54.17 | 86.46 | 76.04 | 78.47 | **69.95 ± 14.96** |
+| Epoch selected in `tutorial` | 42 | 11 | 14 | 13 | 18 | 11 | 33 | 32 | 21 | |
+
+Std is across the 9 subjects. Full tables (train accuracy, epochs, timing) are in
+[`results/summary.md`](results/summary.md); per-subject histories and predictions are in
+`results/<run>/subject_XX.json`.
+
+**Comparison with the targets**
+
+| | Ours (`clean`) | Ours (`tutorial`) | Reference |
+|---|---|---|---|
+| Subject 3 | 84.38 | 81.60 | 83.7 (braindecode tutorial) |
+| Mean, 4–38 Hz | 69.95 | 68.36 | 71.9 (Schirrmeister et al., Table 2) |
+| Mean, 0–38 Hz | see below | – | 73.7 (Schirrmeister et al., Table 2) |
+
+**Discussion**
+
+- *Subject 3* is reproduced: 84.38 % with the clean protocol (+0.7 pp) and 81.60 % with the
+  tutorial protocol (−2.1 pp), both within the expected 1–3 pp run-to-run variation.
+- *Which paper number to compare to.* The 73.7 % of Schirrmeister et al. was obtained with a
+  0–38 Hz band. The tutorial filters 4–38 Hz, for which the paper reports 71.9 % for the
+  shallow ConvNet. Against this number the clean mean is 1.95 pp lower, which is within the
+  normal range. A 0–38 Hz run (`--low-cut 0`) is used to check the remaining part of the gap.
+- *Early stopping in the tutorial.* With `patience=10` on the noisy test loss, training stops
+  after only 21–52 epochs. For subjects 2, 5 and 6 training accuracy is still at 79–83 % when it
+  stops, i.e. the model is under-trained, and the cosine schedule (`T_max = 99`) has barely
+  decayed the learning rate. The clean protocol trains all 100 epochs, never looks at the test
+  session, and still gives a higher mean (+1.6 pp, largest gain on subject 5: +10.4 pp).
+  Selecting the checkpoint on the test set therefore does not even help here; it only makes
+  the reported number optimistically biased in principle.
+- *Remaining differences to the paper.* The paper trains with its own early-stopping scheme on
+  a validation split of the training session (Supporting Information A.4), not with a fixed
+  number of epochs,. Subject-level
+  variance is large (43–86 %): subjects 2, 5 and 6 are known to be hard in BCIC IV 2a, while
+  1, 3, 7, 8 and 9 are above 75 %.
+- *Overfitting.* In the clean protocol, training accuracy reaches 100 % for every subject;
+  the session-to-session gap (train 100 % vs. test 70 %) is the main limitation and the
+  motivation for augmentation and alignment in Milestone 2.
+
 
 ### Environment
 
-<!-- ENV -->
+| | |
+|---|---|
+| Hardware | Apple M1, CPU only (macOS 15.3) |
+| Software | Python 3.11.9, PyTorch 2.14.1, braindecode 1.8.1, MOABB 1.7.2, MNE 1.13.2, skorch 1.4.0 |
+| Training time | ≈ 9 min per subject for 100 epochs (≈ 6 s / epoch); 81 min for all 9 subjects in `clean` mode |
+
+The versions are also stored in every result file (`env` field). The same code runs on a
+Colab/Kaggle GPU through `notebooks/01_reproduce.ipynb`.
+
 
 ## References
 

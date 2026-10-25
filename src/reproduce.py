@@ -48,7 +48,7 @@ DATASET_NAME = "BNCI2014_001"
 ALL_SUBJECTS = list(range(1, 10))
 
 # Hyperparameters from the tutorial
-LOW_CUT_HZ = 4.0
+LOW_CUT_HZ = 4.0  # tutorial; the paper's 73.7% uses 0-38 Hz (no high-pass)
 HIGH_CUT_HZ = 38.0
 FACTOR_NEW = 1e-3
 INIT_BLOCK_SIZE = 1000
@@ -84,11 +84,11 @@ def load_dataset(subject_id, max_retries=5, wait_s=60):
             time.sleep(wait_s)
 
 
-def preprocess_dataset(dataset):
+def preprocess_dataset(dataset, low_cut_hz=LOW_CUT_HZ):
     preprocessors = [
         Preprocessor("pick_types", eeg=True, meg=False, stim=False),
         Preprocessor(lambda data: np.multiply(data, 1e6)),  # V -> uV
-        Preprocessor("filter", l_freq=LOW_CUT_HZ, h_freq=HIGH_CUT_HZ),
+        Preprocessor("filter", l_freq=low_cut_hz or None, h_freq=HIGH_CUT_HZ),
         Preprocessor(
             exponential_moving_standardize,
             factor_new=FACTOR_NEW,
@@ -141,7 +141,7 @@ def trialwise_accuracy(clf, windows_set):
     return float((y_pred == y_true).mean()), y_true.tolist(), y_pred.tolist()
 
 
-def run_subject(subject_id, mode, n_epochs, seed, data_dir=None):
+def run_subject(subject_id, mode, n_epochs, seed, data_dir=None, low_cut_hz=LOW_CUT_HZ):
     cuda = torch.cuda.is_available()
     device = "cuda" if cuda else "cpu"
     if cuda:
@@ -149,7 +149,7 @@ def run_subject(subject_id, mode, n_epochs, seed, data_dir=None):
     set_random_seeds(seed=seed, cuda=cuda)
 
     set_data_dir(data_dir)
-    dataset = preprocess_dataset(load_dataset(subject_id))
+    dataset = preprocess_dataset(load_dataset(subject_id), low_cut_hz)
 
     n_classes = 4
     n_chans = dataset[0][0].shape[0]
@@ -209,6 +209,7 @@ def run_subject(subject_id, mode, n_epochs, seed, data_dir=None):
         "subject": subject_id,
         "mode": mode,
         "seed": seed,
+        "low_cut_hz": low_cut_hz,
         "n_epochs_max": n_epochs,
         "n_epochs_run": len(history),
         "selected_epoch": best_epoch,
@@ -260,12 +261,16 @@ def main():
     parser.add_argument("--mode", choices=["tutorial", "clean"], default="tutorial")
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--seed", type=int, default=20200220)
+    parser.add_argument("--low-cut", type=float, default=LOW_CUT_HZ, help="high-pass in Hz, 0 = none")
     parser.add_argument("--out-dir", default="results")
     parser.add_argument("--data-dir", default=None, help="persistent MNE/MOABB data folder")
     parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
 
-    out_dir = Path(args.out_dir) / f"{args.mode}_seed{args.seed}"
+    run_name = f"{args.mode}_seed{args.seed}"
+    if args.low_cut != LOW_CUT_HZ:
+        run_name += f"_{args.low_cut:g}-{HIGH_CUT_HZ:g}Hz"
+    out_dir = Path(args.out_dir) / run_name
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for subject_id in parse_subjects(args.subjects):
@@ -274,8 +279,10 @@ def main():
             # lets a disconnected Colab session resume where it stopped
             print(f"Skipping subject {subject_id}: {out_file} exists")
             continue
-        print(f"\n=== Subject {subject_id} | mode={args.mode} | seed={args.seed} ===")
-        result = run_subject(subject_id, args.mode, args.epochs, args.seed, args.data_dir)
+        print(f"\n=== Subject {subject_id} | {run_name} ===")
+        result = run_subject(
+            subject_id, args.mode, args.epochs, args.seed, args.data_dir, args.low_cut
+        )
         out_file.write_text(json.dumps(result, indent=1, default=_to_json))
         print(
             f"Subject {subject_id}: test acc = {100 * result['test_acc']:.2f}% "
