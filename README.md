@@ -95,12 +95,23 @@ Std is across the 9 subjects. Full tables (train accuracy, epochs, timing) are i
 [`results/summary.md`](results/summary.md); per-subject histories and predictions are in
 `results/<run>/subject_XX.json`.
 
+**Seed variation (`clean`, 3 seeds: 20200220, 1, 2)**
+
+| Subject | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **Mean** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Mean over seeds | 79.75 | 43.98 | **84.14** | 67.48 | 59.38 | 53.24 | 87.15 | 75.93 | 79.98 | **70.11** |
+| Std over seeds | 1.12 | 0.87 | 0.40 | 1.40 | 0.35 | 1.06 | 0.69 | 0.20 | 1.31 | 0.16 |
+
+The 9-subject mean is 70.25 / 70.14 / 69.95 for the three seeds, i.e. **70.11 ± 0.16 %**.
+Run-to-run variation (≤ 1.4 pp per subject) is much smaller than the differences between
+subjects, so the gap to the paper is not caused by an unlucky seed.
+
 **Comparison with the targets**
 
 | | Ours (`clean`) | Ours (`tutorial`) | Reference |
 |---|---|---|---|
-| Subject 3 | 84.38 | 81.60 | 83.7 (braindecode tutorial) |
-| Mean, 4–38 Hz | 69.95 | 68.36 | 71.9 (Schirrmeister et al., Table 2) |
+| Subject 3 | 84.14 ± 0.40 (3 seeds) | 81.60 | 83.7 (braindecode tutorial) |
+| Mean, 4–38 Hz | 70.11 ± 0.16 (3 seeds) | 68.36 | 71.9 (Schirrmeister et al., Table 2) |
 | Mean, 0–38 Hz | see below | – | 73.7 (Schirrmeister et al., Table 2) |
 
 **Discussion**
@@ -109,8 +120,8 @@ Std is across the 9 subjects. Full tables (train accuracy, epochs, timing) are i
   tutorial protocol (−2.1 pp), both within the expected 1–3 pp run-to-run variation.
 - *Which paper number to compare to.* The 73.7 % of Schirrmeister et al. was obtained with a
   0–38 Hz band. The tutorial filters 4–38 Hz, for which the paper reports 71.9 % for the
-  shallow ConvNet. Against this number the clean mean is 1.95 pp lower, which is within the
-  normal range. A 0–38 Hz run (`--low-cut 0`) is used to check the remaining part of the gap.
+  shallow ConvNet. Against this number the clean mean (70.11 % over 3 seeds) is 1.8 pp lower,
+  which is within the normal range. A 0–38 Hz run (`--low-cut 0`) is used to check the remaining part of the gap.
 - *Early stopping in the tutorial.* With `patience=10` on the noisy test loss, training stops
   after only 21–52 epochs. For subjects 2, 5 and 6 training accuracy is still at 79–83 % when it
   stops, i.e. the model is under-trained, and the cosine schedule (`T_max = 99`) has barely
@@ -120,8 +131,7 @@ Std is across the 9 subjects. Full tables (train accuracy, epochs, timing) are i
   the reported number optimistically biased in principle.
 - *Remaining differences to the paper.* The paper trains with its own early-stopping scheme on
   a validation split of the training session (Supporting Information A.4), not with a fixed
-  number of epochs,. Subject-level
-  variance is large (43–86 %): subjects 2, 5 and 6 are known to be hard in BCIC IV 2a, while
+  number of epochs. Subject-level variance is large (43–86 %): subjects 2, 5 and 6 are known to be hard in BCIC IV 2a, while
   1, 3, 7, 8 and 9 are above 75 %.
 - *Overfitting.* In the clean protocol, training accuracy reaches 100 % for every subject;
   the session-to-session gap (train 100 % vs. test 70 %) is the main limitation and the
