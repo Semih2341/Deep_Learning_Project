@@ -1,0 +1,2637 @@
+
+=== Subject 1 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.2769[0m  0.0006  2.5921
+      2            [36m0.2743[0m        [32m0.9856[0m  0.0006  2.6609
+      3            [36m0.4618[0m        [32m0.8666[0m  0.0006  2.5103
+      4            [36m0.7326[0m        [32m0.7843[0m  0.0006  2.5427
+      5            0.7222        [32m0.7029[0m  0.0006  2.5247
+      6            [36m0.7361[0m        [32m0.6236[0m  0.0006  2.5408
+      7            [36m0.8194[0m        [32m0.5652[0m  0.0006  2.9751
+      8            0.7361        [32m0.4951[0m  0.0006  2.6390
+      9            [36m0.8611[0m        [32m0.4692[0m  0.0006  2.5035
+     10            [36m0.9236[0m        [32m0.4034[0m  0.0006  2.5282
+     11            0.8611        [32m0.3782[0m  0.0006  2.5200
+     12            [36m0.9549[0m        [32m0.3333[0m  0.0006  2.5176
+     13            0.9132        [32m0.2993[0m  0.0006  2.5242
+     14            0.8576        [32m0.2834[0m  0.0006  2.5416
+     15            0.9028        [32m0.2558[0m  0.0006  2.5308
+     16            0.8542        [32m0.2514[0m  0.0006  2.5179
+     17            [36m0.9722[0m        [32m0.2404[0m  0.0006  2.5192
+     18            0.8819        [32m0.2015[0m  0.0006  2.5300
+     19            0.9062        0.2025  0.0006  2.5143
+     20            [36m0.9861[0m        [32m0.1869[0m  0.0006  2.5236
+     21            [36m0.9896[0m        [32m0.1512[0m  0.0006  2.5229
+     22            [36m0.9931[0m        0.1587  0.0006  2.5215
+     23            0.9861        0.1775  0.0006  2.5258
+     24            0.8889        [32m0.1418[0m  0.0005  2.5330
+     25            [36m1.0000[0m        [32m0.1238[0m  0.0005  2.5206
+     26            1.0000        [32m0.0990[0m  0.0005  2.5158
+     27            0.9965        [32m0.0925[0m  0.0005  2.5263
+     28            1.0000        [32m0.0844[0m  0.0005  2.5293
+     29            0.9861        [32m0.0719[0m  0.0005  2.5193
+     30            0.8715        0.0842  0.0005  2.5196
+     31            0.9688        0.0867  0.0005  2.5319
+     32            1.0000        0.0826  0.0005  2.5069
+     33            1.0000        [32m0.0681[0m  0.0005  2.5392
+     34            1.0000        [32m0.0667[0m  0.0005  2.5475
+     35            1.0000        [32m0.0566[0m  0.0005  2.5022
+     36            1.0000        [32m0.0510[0m  0.0005  2.5067
+     37            1.0000        0.0664  0.0004  2.5120
+     38            1.0000        0.0547  0.0004  2.5133
+     39            1.0000        [32m0.0454[0m  0.0004  2.5088
+     40            1.0000        [32m0.0413[0m  0.0004  2.5070
+     41            1.0000        0.0458  0.0004  2.5070
+     42            0.9826        0.0600  0.0004  2.4996
+     43            0.9965        0.0526  0.0004  2.5157
+     44            1.0000        0.0449  0.0004  2.5030
+     45            1.0000        [32m0.0383[0m  0.0004  2.5125
+     46            1.0000        [32m0.0343[0m  0.0004  2.5062
+     47            1.0000        0.0347  0.0003  2.5034
+     48            1.0000        [32m0.0338[0m  0.0003  2.5142
+     49            1.0000        0.0343  0.0003  2.5083
+     50            1.0000        [32m0.0312[0m  0.0003  2.5072
+     51            1.0000        [32m0.0283[0m  0.0003  2.5083
+     52            1.0000        [32m0.0282[0m  0.0003  2.5019
+     53            1.0000        0.0282  0.0003  2.5043
+     54            1.0000        [32m0.0262[0m  0.0003  2.4998
+     55            1.0000        [32m0.0237[0m  0.0003  2.5011
+     56            1.0000        0.0242  0.0003  2.5044
+     57            1.0000        0.0245  0.0002  2.5112
+     58            1.0000        0.0261  0.0002  2.5101
+     59            1.0000        [32m0.0226[0m  0.0002  2.5030
+     60            1.0000        [32m0.0212[0m  0.0002  2.4984
+     61            1.0000        0.0250  0.0002  2.5232
+     62            1.0000        [32m0.0176[0m  0.0002  2.5035
+     63            1.0000        0.0218  0.0002  2.4983
+     64            1.0000        0.0197  0.0002  2.4975
+     65            1.0000        0.0229  0.0002  2.4993
+     66            1.0000        0.0202  0.0002  2.5039
+     67            1.0000        0.0193  0.0002  2.5121
+     68            1.0000        0.0184  0.0001  2.5044
+     69            1.0000        0.0182  0.0001  2.5091
+     70            1.0000        0.0176  0.0001  2.4999
+     71            1.0000        0.0177  0.0001  2.5100
+     72            1.0000        [32m0.0159[0m  0.0001  2.5170
+     73            1.0000        0.0168  0.0001  2.5066
+     74            1.0000        0.0183  0.0001  2.4956
+     75            1.0000        0.0161  0.0001  2.4956
+     76            1.0000        [32m0.0152[0m  0.0001  2.5019
+     77            1.0000        0.0158  0.0001  2.5029
+     78            1.0000        0.0167  0.0001  2.5044
+     79            1.0000        0.0176  0.0001  2.5057
+     80            1.0000        [32m0.0148[0m  0.0001  2.5108
+     81            1.0000        0.0167  0.0001  2.5028
+     82            1.0000        0.0161  0.0000  2.5076
+     83            1.0000        0.0172  0.0000  2.5148
+     84            1.0000        0.0171  0.0000  2.5036
+     85            1.0000        0.0184  0.0000  2.5022
+     86            1.0000        0.0163  0.0000  2.7103
+     87            1.0000        0.0156  0.0000  2.9523
+     88            1.0000        [32m0.0144[0m  0.0000  2.4743
+     89            1.0000        0.0150  0.0000  2.4736
+     90            1.0000        [32m0.0141[0m  0.0000  2.4774
+     91            1.0000        [32m0.0138[0m  0.0000  2.4733
+     92            1.0000        0.0156  0.0000  2.4700
+     93            1.0000        0.0145  0.0000  2.4770
+     94            1.0000        0.0155  0.0000  2.4724
+     95            1.0000        0.0148  0.0000  2.4763
+     96            1.0000        0.0152  0.0000  2.4929
+     97            1.0000        0.0180  0.0000  2.4871
+     98            1.0000        0.0152  0.0000  2.4863
+     99            1.0000        0.0142  0.0000  2.4872
+    100            1.0000        0.0194  0.0000  2.4911
+Subject 1: test acc = 80.21% (epoch 100/100)
+
+=== Subject 2 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.3507[0m        [32m1.4231[0m  0.0006  2.5186
+      2            0.2639        [32m1.3099[0m  0.0006  2.5056
+      3            [36m0.4097[0m        [32m1.2418[0m  0.0006  2.4995
+      4            0.3993        [32m1.1858[0m  0.0006  2.5149
+      5            0.3021        [32m1.1203[0m  0.0006  2.5173
+      6            [36m0.5625[0m        [32m1.0586[0m  0.0006  2.5046
+      7            [36m0.6389[0m        [32m0.9774[0m  0.0006  2.5259
+      8            [36m0.6701[0m        [32m0.9236[0m  0.0006  2.5032
+      9            [36m0.6875[0m        [32m0.8376[0m  0.0006  2.5015
+     10            0.6493        [32m0.7635[0m  0.0006  2.5072
+     11            0.6806        [32m0.7021[0m  0.0006  2.4971
+     12            [36m0.8472[0m        [32m0.6528[0m  0.0006  2.5387
+     13            0.8229        [32m0.6114[0m  0.0006  2.4963
+     14            [36m0.8542[0m        [32m0.5647[0m  0.0006  2.5019
+     15            0.8333        [32m0.5241[0m  0.0006  2.5255
+     16            0.8021        [32m0.5057[0m  0.0006  2.5050
+     17            [36m0.8611[0m        [32m0.4773[0m  0.0006  2.5009
+     18            0.8438        [32m0.4307[0m  0.0006  2.5103
+     19            0.7986        [32m0.3854[0m  0.0006  2.4985
+     20            [36m0.8819[0m        [32m0.3620[0m  0.0006  2.5026
+     21            [36m0.8958[0m        [32m0.3275[0m  0.0006  2.5024
+     22            [36m0.9826[0m        [32m0.3042[0m  0.0006  2.5238
+     23            0.9479        [32m0.2909[0m  0.0006  2.5061
+     24            0.7639        [32m0.2724[0m  0.0005  2.5059
+     25            0.8958        [32m0.2615[0m  0.0005  2.5048
+     26            0.9410        [32m0.2470[0m  0.0005  2.4993
+     27            0.9722        [32m0.2183[0m  0.0005  2.5000
+     28            0.9826        [32m0.1992[0m  0.0005  2.5127
+     29            [36m0.9931[0m        [32m0.1857[0m  0.0005  2.5060
+     30            0.9722        [32m0.1752[0m  0.0005  2.5052
+     31            0.9861        [32m0.1551[0m  0.0005  2.5017
+     32            0.9792        [32m0.1488[0m  0.0005  2.5238
+     33            0.9896        0.1498  0.0005  2.5033
+     34            [36m0.9965[0m        [32m0.1340[0m  0.0005  2.5118
+     35            [36m1.0000[0m        [32m0.1186[0m  0.0005  2.5107
+     36            1.0000        [32m0.1143[0m  0.0005  2.5061
+     37            1.0000        [32m0.1004[0m  0.0004  2.5016
+     38            1.0000        [32m0.0970[0m  0.0004  2.5086
+     39            1.0000        [32m0.0939[0m  0.0004  2.5076
+     40            1.0000        [32m0.0855[0m  0.0004  2.4996
+     41            0.9861        [32m0.0799[0m  0.0004  2.5095
+     42            1.0000        [32m0.0774[0m  0.0004  2.5041
+     43            1.0000        [32m0.0724[0m  0.0004  2.5053
+     44            1.0000        0.0775  0.0004  2.5021
+     45            0.9965        [32m0.0703[0m  0.0004  2.5028
+     46            1.0000        [32m0.0627[0m  0.0004  2.5095
+     47            1.0000        0.0630  0.0003  2.4996
+     48            1.0000        [32m0.0556[0m  0.0003  2.5103
+     49            1.0000        0.0565  0.0003  2.5206
+     50            1.0000        [32m0.0507[0m  0.0003  2.5126
+     51            1.0000        0.0545  0.0003  2.5093
+     52            1.0000        [32m0.0500[0m  0.0003  2.5063
+     53            1.0000        0.0510  0.0003  2.5148
+     54            1.0000        [32m0.0493[0m  0.0003  2.5079
+     55            1.0000        0.0500  0.0003  2.5029
+     56            1.0000        [32m0.0451[0m  0.0003  2.4998
+     57            1.0000        [32m0.0418[0m  0.0002  2.5069
+     58            1.0000        0.0421  0.0002  2.5167
+     59            1.0000        0.0434  0.0002  2.4999
+     60            1.0000        [32m0.0390[0m  0.0002  2.4997
+     61            1.0000        [32m0.0380[0m  0.0002  2.5052
+     62            1.0000        [32m0.0353[0m  0.0002  2.5074
+     63            1.0000        0.0361  0.0002  2.4997
+     64            1.0000        0.0357  0.0002  2.5054
+     65            1.0000        0.0368  0.0002  2.5297
+     66            1.0000        [32m0.0336[0m  0.0002  2.5075
+     67            1.0000        [32m0.0329[0m  0.0002  2.5217
+     68            1.0000        [32m0.0325[0m  0.0001  2.5134
+     69            1.0000        [32m0.0323[0m  0.0001  2.5043
+     70            1.0000        0.0334  0.0001  2.5225
+     71            1.0000        [32m0.0304[0m  0.0001  2.5272
+     72            1.0000        0.0317  0.0001  2.5051
+     73            1.0000        0.0307  0.0001  2.5164
+     74            1.0000        [32m0.0295[0m  0.0001  2.5150
+     75            1.0000        0.0306  0.0001  2.5063
+     76            1.0000        0.0298  0.0001  2.5037
+     77            1.0000        [32m0.0291[0m  0.0001  2.5010
+     78            1.0000        [32m0.0285[0m  0.0001  2.5021
+     79            1.0000        [32m0.0274[0m  0.0001  2.5117
+     80            1.0000        0.0278  0.0001  2.5055
+     81            1.0000        0.0289  0.0001  2.5042
+     82            1.0000        0.0286  0.0000  2.5054
+     83            1.0000        0.0292  0.0000  2.5685
+     84            1.0000        [32m0.0265[0m  0.0000  2.5451
+     85            1.0000        0.0266  0.0000  2.5099
+     86            1.0000        0.0309  0.0000  2.5253
+     87            1.0000        0.0271  0.0000  2.8616
+     88            1.0000        0.0281  0.0000  2.8131
+     89            1.0000        [32m0.0262[0m  0.0000  2.4771
+     90            1.0000        0.0274  0.0000  2.4778
+     91            1.0000        0.0267  0.0000  2.4737
+     92            1.0000        [32m0.0257[0m  0.0000  2.4789
+     93            1.0000        0.0264  0.0000  2.4789
+     94            1.0000        0.0262  0.0000  2.4750
+     95            1.0000        [32m0.0254[0m  0.0000  2.4706
+     96            1.0000        0.0281  0.0000  2.4872
+     97            1.0000        [32m0.0253[0m  0.0000  2.5132
+     98            1.0000        0.0264  0.0000  2.4769
+     99            1.0000        0.0264  0.0000  2.4687
+    100            1.0000        0.0255  0.0000  2.4759
+Subject 2: test acc = 48.61% (epoch 100/100)
+
+=== Subject 3 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2535[0m        [32m1.3270[0m  0.0006  2.5196
+      2            0.2500        [32m1.0789[0m  0.0006  2.5068
+      3            [36m0.4757[0m        [32m0.9222[0m  0.0006  2.5000
+      4            [36m0.6111[0m        [32m0.7780[0m  0.0006  2.4956
+      5            [36m0.7674[0m        [32m0.6822[0m  0.0006  2.5077
+      6            [36m0.8021[0m        [32m0.5808[0m  0.0006  2.5097
+      7            [36m0.8854[0m        [32m0.4993[0m  0.0006  2.5066
+      8            0.8854        [32m0.4470[0m  0.0006  2.4982
+      9            [36m0.8993[0m        [32m0.3814[0m  0.0006  2.5017
+     10            0.8854        [32m0.3248[0m  0.0006  2.5013
+     11            [36m0.9549[0m        [32m0.2780[0m  0.0006  2.5084
+     12            0.8993        [32m0.2430[0m  0.0006  2.4996
+     13            [36m0.9618[0m        [32m0.2217[0m  0.0006  2.4980
+     14            [36m0.9653[0m        [32m0.1866[0m  0.0006  2.5039
+     15            0.9653        [32m0.1809[0m  0.0006  2.4954
+     16            0.9653        [32m0.1515[0m  0.0006  2.5200
+     17            0.9340        0.1516  0.0006  2.5093
+     18            [36m0.9896[0m        [32m0.1363[0m  0.0006  2.5009
+     19            [36m0.9965[0m        [32m0.1065[0m  0.0006  2.4968
+     20            [36m1.0000[0m        0.1111  0.0006  2.5043
+     21            0.9792        [32m0.0829[0m  0.0006  2.5020
+     22            0.9931        0.0838  0.0006  2.5057
+     23            0.9896        0.0885  0.0006  2.5016
+     24            0.9826        0.0890  0.0005  2.4995
+     25            1.0000        [32m0.0791[0m  0.0005  2.5018
+     26            0.9826        [32m0.0724[0m  0.0005  2.5079
+     27            0.9931        [32m0.0637[0m  0.0005  2.4993
+     28            0.9931        [32m0.0579[0m  0.0005  2.5020
+     29            0.9757        0.0601  0.0005  2.5013
+     30            0.9965        0.0650  0.0005  2.4976
+     31            1.0000        [32m0.0563[0m  0.0005  2.5038
+     32            1.0000        [32m0.0449[0m  0.0005  2.5042
+     33            1.0000        [32m0.0386[0m  0.0005  2.5108
+     34            1.0000        [32m0.0317[0m  0.0005  2.5109
+     35            1.0000        [32m0.0295[0m  0.0005  2.5036
+     36            1.0000        0.0311  0.0005  2.4957
+     37            1.0000        0.0301  0.0004  2.4971
+     38            1.0000        [32m0.0275[0m  0.0004  2.5019
+     39            1.0000        [32m0.0247[0m  0.0004  2.5046
+     40            1.0000        0.0265  0.0004  2.5079
+     41            1.0000        [32m0.0227[0m  0.0004  2.5085
+     42            1.0000        [32m0.0219[0m  0.0004  2.5004
+     43            1.0000        [32m0.0217[0m  0.0004  2.4975
+     44            1.0000        0.0228  0.0004  2.4961
+     45            1.0000        [32m0.0209[0m  0.0004  2.4999
+     46            1.0000        [32m0.0176[0m  0.0004  2.5204
+     47            1.0000        0.0191  0.0003  2.4996
+     48            1.0000        0.0185  0.0003  2.4980
+     49            1.0000        [32m0.0161[0m  0.0003  2.5069
+     50            1.0000        [32m0.0148[0m  0.0003  2.5247
+     51            1.0000        0.0156  0.0003  2.5057
+     52            1.0000        0.0168  0.0003  2.5119
+     53            1.0000        [32m0.0148[0m  0.0003  2.4982
+     54            1.0000        0.0157  0.0003  2.5059
+     55            1.0000        [32m0.0141[0m  0.0003  2.4981
+     56            1.0000        [32m0.0122[0m  0.0003  2.5036
+     57            1.0000        0.0157  0.0002  2.4979
+     58            1.0000        0.0136  0.0002  2.5054
+     59            1.0000        0.0165  0.0002  2.5077
+     60            1.0000        [32m0.0106[0m  0.0002  2.5134
+     61            1.0000        0.0122  0.0002  2.4951
+     62            1.0000        0.0119  0.0002  2.5059
+     63            1.0000        [32m0.0106[0m  0.0002  2.5049
+     64            1.0000        0.0112  0.0002  2.4953
+     65            1.0000        0.0132  0.0002  2.5010
+     66            1.0000        0.0107  0.0002  2.5007
+     67            1.0000        0.0107  0.0002  2.5030
+     68            1.0000        [32m0.0099[0m  0.0001  2.5205
+     69            1.0000        0.0105  0.0001  2.5029
+     70            1.0000        [32m0.0098[0m  0.0001  2.4990
+     71            1.0000        0.0101  0.0001  2.4984
+     72            1.0000        0.0104  0.0001  2.5164
+     73            1.0000        0.0109  0.0001  2.5248
+     74            1.0000        0.0099  0.0001  2.5257
+     75            1.0000        0.0101  0.0001  2.5273
+     76            1.0000        0.0115  0.0001  2.5071
+     77            1.0000        0.0110  0.0001  2.5002
+     78            1.0000        [32m0.0091[0m  0.0001  2.5053
+     79            1.0000        0.0113  0.0001  2.4987
+     80            1.0000        0.0118  0.0001  2.5055
+     81            1.0000        0.0108  0.0001  2.5064
+     82            1.0000        0.0098  0.0000  2.5009
+     83            1.0000        0.0102  0.0000  2.5190
+     84            1.0000        [32m0.0090[0m  0.0000  2.4966
+     85            1.0000        [32m0.0089[0m  0.0000  2.5110
+     86            1.0000        0.0122  0.0000  2.5086
+     87            1.0000        [32m0.0083[0m  0.0000  2.7501
+     88            1.0000        0.0095  0.0000  2.9076
+     89            1.0000        0.0087  0.0000  2.4717
+     90            1.0000        0.0095  0.0000  2.4683
+     91            1.0000        [32m0.0082[0m  0.0000  2.4744
+     92            1.0000        0.0083  0.0000  2.4728
+     93            1.0000        0.0092  0.0000  2.4693
+     94            1.0000        0.0094  0.0000  2.4673
+     95            1.0000        0.0087  0.0000  2.4752
+     96            1.0000        0.0097  0.0000  2.4688
+     97            1.0000        0.0087  0.0000  2.4740
+     98            1.0000        0.0097  0.0000  2.4750
+     99            1.0000        0.0095  0.0000  2.4684
+    100            1.0000        0.0084  0.0000  2.4722
+Subject 3: test acc = 89.58% (epoch 100/100)
+
+=== Subject 4 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.4018[0m  0.0006  2.5216
+      2            [36m0.2986[0m        [32m1.2857[0m  0.0006  2.4994
+      3            [36m0.3194[0m        [32m1.2067[0m  0.0006  2.5066
+      4            [36m0.4306[0m        [32m1.1471[0m  0.0006  2.5019
+      5            [36m0.5521[0m        [32m1.0977[0m  0.0006  2.5112
+      6            [36m0.6250[0m        [32m1.0407[0m  0.0006  2.5089
+      7            [36m0.6736[0m        [32m0.9858[0m  0.0006  2.5012
+      8            0.6319        [32m0.9315[0m  0.0006  2.4956
+      9            [36m0.7465[0m        [32m0.8801[0m  0.0006  2.5008
+     10            [36m0.7986[0m        [32m0.8521[0m  0.0006  2.5000
+     11            [36m0.8299[0m        [32m0.7902[0m  0.0006  2.5070
+     12            [36m0.8403[0m        [32m0.7661[0m  0.0006  2.4968
+     13            0.8368        [32m0.6850[0m  0.0006  2.4960
+     14            0.8229        [32m0.6397[0m  0.0006  2.4982
+     15            0.7986        [32m0.6002[0m  0.0006  2.5015
+     16            [36m0.8715[0m        [32m0.5518[0m  0.0006  2.5050
+     17            [36m0.8819[0m        [32m0.5210[0m  0.0006  2.5087
+     18            [36m0.8854[0m        [32m0.4791[0m  0.0006  2.5014
+     19            [36m0.9062[0m        [32m0.4433[0m  0.0006  2.5050
+     20            [36m0.9236[0m        [32m0.4046[0m  0.0006  2.4968
+     21            0.9236        [32m0.3726[0m  0.0006  2.5046
+     22            [36m0.9514[0m        [32m0.3481[0m  0.0006  2.4973
+     23            [36m0.9931[0m        [32m0.3195[0m  0.0006  2.5048
+     24            0.8472        [32m0.3049[0m  0.0005  2.5115
+     25            0.9271        [32m0.2981[0m  0.0005  2.5157
+     26            0.9722        [32m0.2796[0m  0.0005  2.5044
+     27            0.9861        [32m0.2683[0m  0.0005  2.5022
+     28            0.9479        [32m0.2307[0m  0.0005  2.5036
+     29            0.9653        [32m0.2116[0m  0.0005  2.5042
+     30            [36m1.0000[0m        [32m0.2085[0m  0.0005  2.5029
+     31            0.9965        [32m0.1914[0m  0.0005  2.5023
+     32            0.9965        [32m0.1782[0m  0.0005  2.5017
+     33            0.9861        0.1839  0.0005  2.5004
+     34            1.0000        [32m0.1610[0m  0.0005  2.5045
+     35            0.9965        [32m0.1576[0m  0.0005  2.4979
+     36            0.9965        [32m0.1487[0m  0.0005  2.5048
+     37            1.0000        [32m0.1355[0m  0.0004  2.5062
+     38            1.0000        [32m0.1258[0m  0.0004  2.5022
+     39            1.0000        [32m0.1187[0m  0.0004  2.5130
+     40            1.0000        [32m0.1092[0m  0.0004  2.5012
+     41            1.0000        0.1123  0.0004  2.5063
+     42            1.0000        [32m0.1015[0m  0.0004  2.5057
+     43            1.0000        [32m0.0925[0m  0.0004  2.4999
+     44            1.0000        [32m0.0911[0m  0.0004  2.5086
+     45            1.0000        [32m0.0875[0m  0.0004  2.5081
+     46            1.0000        [32m0.0848[0m  0.0004  2.5086
+     47            1.0000        [32m0.0813[0m  0.0003  2.4992
+     48            1.0000        [32m0.0779[0m  0.0003  2.5146
+     49            1.0000        0.0780  0.0003  2.5079
+     50            1.0000        [32m0.0713[0m  0.0003  2.5084
+     51            1.0000        [32m0.0653[0m  0.0003  2.5077
+     52            1.0000        [32m0.0645[0m  0.0003  2.5157
+     53            1.0000        [32m0.0634[0m  0.0003  2.4971
+     54            1.0000        [32m0.0617[0m  0.0003  2.4995
+     55            1.0000        0.0629  0.0003  2.5051
+     56            1.0000        [32m0.0547[0m  0.0003  2.5017
+     57            1.0000        [32m0.0523[0m  0.0002  2.4951
+     58            1.0000        0.0556  0.0002  2.5018
+     59            1.0000        [32m0.0497[0m  0.0002  2.5055
+     60            1.0000        [32m0.0479[0m  0.0002  2.5114
+     61            1.0000        0.0505  0.0002  2.5101
+     62            1.0000        0.0504  0.0002  2.5427
+     63            1.0000        0.0509  0.0002  2.5224
+     64            1.0000        [32m0.0474[0m  0.0002  2.5130
+     65            1.0000        [32m0.0464[0m  0.0002  2.5090
+     66            1.0000        0.0466  0.0002  2.5023
+     67            1.0000        [32m0.0440[0m  0.0002  2.4974
+     68            1.0000        [32m0.0433[0m  0.0001  2.4998
+     69            1.0000        [32m0.0419[0m  0.0001  2.5174
+     70            1.0000        0.0436  0.0001  2.5041
+     71            1.0000        [32m0.0414[0m  0.0001  2.5048
+     72            1.0000        [32m0.0386[0m  0.0001  2.5081
+     73            1.0000        0.0389  0.0001  2.4979
+     74            1.0000        [32m0.0384[0m  0.0001  2.4976
+     75            1.0000        0.0411  0.0001  2.5121
+     76            1.0000        [32m0.0368[0m  0.0001  2.5008
+     77            1.0000        0.0372  0.0001  2.5133
+     78            1.0000        0.0375  0.0001  2.5153
+     79            1.0000        0.0383  0.0001  2.5062
+     80            1.0000        0.0397  0.0001  2.4988
+     81            1.0000        0.0370  0.0001  2.5111
+     82            1.0000        0.0391  0.0000  2.5090
+     83            1.0000        [32m0.0348[0m  0.0000  2.5095
+     84            1.0000        0.0353  0.0000  2.4974
+     85            1.0000        [32m0.0344[0m  0.0000  2.4980
+     86            1.0000        0.0372  0.0000  2.5008
+     87            1.0000        0.0372  0.0000  2.8126
+     88            1.0000        0.0347  0.0000  2.8766
+     89            1.0000        0.0346  0.0000  2.4752
+     90            1.0000        0.0373  0.0000  2.4763
+     91            1.0000        0.0353  0.0000  2.4729
+     92            1.0000        [32m0.0342[0m  0.0000  2.4813
+     93            1.0000        [32m0.0332[0m  0.0000  2.4745
+     94            1.0000        0.0362  0.0000  2.4756
+     95            1.0000        0.0364  0.0000  2.4707
+     96            1.0000        0.0340  0.0000  2.4802
+     97            1.0000        0.0351  0.0000  2.4740
+     98            1.0000        0.0366  0.0000  2.4751
+     99            1.0000        0.0346  0.0000  2.4755
+    100            1.0000        0.0356  0.0000  2.4729
+Subject 4: test acc = 64.93% (epoch 100/100)
+
+=== Subject 5 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.4733[0m  0.0006  2.5327
+      2            [36m0.2639[0m        [32m1.3579[0m  0.0006  2.4998
+      3            0.2500        [32m1.2976[0m  0.0006  2.4985
+      4            0.2569        [32m1.2405[0m  0.0006  2.5040
+      5            [36m0.3229[0m        [32m1.1780[0m  0.0006  2.5025
+      6            [36m0.6146[0m        [32m1.1051[0m  0.0006  2.5024
+      7            0.6076        [32m1.0403[0m  0.0006  2.5077
+      8            [36m0.7222[0m        [32m0.9742[0m  0.0006  2.4978
+      9            0.5590        [32m0.9068[0m  0.0006  2.5099
+     10            0.5625        [32m0.8509[0m  0.0006  2.5074
+     11            0.6910        [32m0.8012[0m  0.0006  2.5051
+     12            0.6250        [32m0.7546[0m  0.0006  2.4985
+     13            [36m0.7986[0m        [32m0.7228[0m  0.0006  2.4979
+     14            0.6910        [32m0.6967[0m  0.0006  2.5384
+     15            0.6111        [32m0.6275[0m  0.0006  2.5171
+     16            0.7222        [32m0.6122[0m  0.0006  2.5089
+     17            0.5799        [32m0.6060[0m  0.0006  2.5037
+     18            [36m0.8438[0m        [32m0.5441[0m  0.0006  2.5062
+     19            [36m0.8715[0m        [32m0.4871[0m  0.0006  2.5041
+     20            0.6910        [32m0.4572[0m  0.0006  2.5026
+     21            [36m0.9132[0m        [32m0.4278[0m  0.0006  2.5054
+     22            [36m0.9340[0m        [32m0.3773[0m  0.0006  2.5108
+     23            0.9340        [32m0.3587[0m  0.0006  2.5113
+     24            0.9340        [32m0.3449[0m  0.0005  2.5024
+     25            0.9340        [32m0.3337[0m  0.0005  2.5052
+     26            0.8542        [32m0.3089[0m  0.0005  2.5061
+     27            0.8507        [32m0.2809[0m  0.0005  2.5041
+     28            0.8021        [32m0.2715[0m  0.0005  2.5014
+     29            [36m0.9375[0m        0.2849  0.0005  2.5052
+     30            0.9236        0.3005  0.0005  2.5042
+     31            [36m0.9757[0m        [32m0.2329[0m  0.0005  2.5046
+     32            [36m0.9792[0m        [32m0.2085[0m  0.0005  2.5038
+     33            [36m0.9861[0m        0.2259  0.0005  2.5019
+     34            0.9062        [32m0.2032[0m  0.0005  2.5105
+     35            [36m0.9896[0m        [32m0.2023[0m  0.0005  2.4989
+     36            0.9653        [32m0.1740[0m  0.0005  2.5225
+     37            0.9653        [32m0.1672[0m  0.0004  2.5117
+     38            0.9792        [32m0.1413[0m  0.0004  2.4980
+     39            [36m0.9965[0m        0.1494  0.0004  2.4990
+     40            0.9549        [32m0.1303[0m  0.0004  2.5040
+     41            0.9965        [32m0.1179[0m  0.0004  2.5021
+     42            0.9861        [32m0.1120[0m  0.0004  2.5145
+     43            0.9931        [32m0.0999[0m  0.0004  2.5103
+     44            0.9965        0.1065  0.0004  2.5117
+     45            0.9896        0.1071  0.0004  2.5028
+     46            0.9896        [32m0.0967[0m  0.0004  2.5130
+     47            [36m1.0000[0m        0.1003  0.0003  2.5052
+     48            1.0000        [32m0.0902[0m  0.0003  2.5066
+     49            1.0000        [32m0.0846[0m  0.0003  2.5021
+     50            0.9965        [32m0.0754[0m  0.0003  2.5273
+     51            1.0000        0.0789  0.0003  2.5516
+     52            1.0000        0.0766  0.0003  2.6136
+     53            0.9965        [32m0.0721[0m  0.0003  2.5359
+     54            1.0000        0.0726  0.0003  2.5133
+     55            1.0000        [32m0.0654[0m  0.0003  2.5028
+     56            1.0000        [32m0.0625[0m  0.0003  2.5090
+     57            1.0000        0.0631  0.0002  2.5010
+     58            0.9896        0.0643  0.0002  2.5059
+     59            1.0000        0.0642  0.0002  2.5056
+     60            1.0000        [32m0.0570[0m  0.0002  2.5065
+     61            1.0000        [32m0.0537[0m  0.0002  2.5062
+     62            0.9965        [32m0.0517[0m  0.0002  2.5038
+     63            1.0000        0.0535  0.0002  2.5040
+     64            1.0000        0.0521  0.0002  2.5054
+     65            1.0000        0.0523  0.0002  2.4973
+     66            1.0000        [32m0.0490[0m  0.0002  2.5015
+     67            1.0000        0.0515  0.0002  2.5087
+     68            1.0000        [32m0.0445[0m  0.0001  2.5013
+     69            1.0000        0.0485  0.0001  2.5057
+     70            1.0000        [32m0.0443[0m  0.0001  2.5016
+     71            1.0000        [32m0.0437[0m  0.0001  2.5041
+     72            1.0000        [32m0.0434[0m  0.0001  2.5070
+     73            1.0000        [32m0.0428[0m  0.0001  2.5076
+     74            1.0000        0.0451  0.0001  2.4947
+     75            1.0000        0.0455  0.0001  2.5063
+     76            1.0000        0.0431  0.0001  2.5112
+     77            1.0000        [32m0.0421[0m  0.0001  2.5028
+     78            1.0000        0.0421  0.0001  2.5035
+     79            1.0000        0.0452  0.0001  2.5023
+     80            1.0000        [32m0.0411[0m  0.0001  2.5075
+     81            1.0000        [32m0.0401[0m  0.0001  2.5048
+     82            1.0000        0.0403  0.0000  2.4965
+     83            1.0000        0.0415  0.0000  2.5168
+     84            1.0000        0.0425  0.0000  2.5092
+     85            1.0000        0.0415  0.0000  2.5056
+     86            1.0000        0.0454  0.0000  2.5079
+     87            1.0000        [32m0.0387[0m  0.0000  2.7970
+     88            1.0000        0.0399  0.0000  2.8585
+     89            1.0000        [32m0.0385[0m  0.0000  2.4770
+     90            1.0000        0.0391  0.0000  2.4777
+     91            1.0000        [32m0.0383[0m  0.0000  2.4682
+     92            1.0000        0.0387  0.0000  2.4843
+     93            1.0000        [32m0.0379[0m  0.0000  2.4759
+     94            1.0000        0.0387  0.0000  2.4752
+     95            1.0000        [32m0.0363[0m  0.0000  2.4714
+     96            1.0000        [32m0.0358[0m  0.0000  2.4871
+     97            1.0000        0.0376  0.0000  2.4717
+     98            1.0000        0.0397  0.0000  2.4731
+     99            1.0000        0.0377  0.0000  2.4717
+    100            1.0000        0.0373  0.0000  2.4746
+Subject 5: test acc = 55.90% (epoch 100/100)
+
+=== Subject 6 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.3589[0m  0.0006  2.5175
+      2            [36m0.2535[0m        [32m1.1925[0m  0.0006  2.4954
+      3            [36m0.2639[0m        [32m1.0983[0m  0.0006  2.4966
+      4            [36m0.5764[0m        [32m1.0149[0m  0.0006  2.5101
+      5            [36m0.7014[0m        [32m0.9521[0m  0.0006  2.4974
+      6            0.6562        [32m0.8786[0m  0.0006  2.4984
+      7            0.6458        [32m0.8098[0m  0.0006  2.5028
+      8            0.6562        [32m0.7510[0m  0.0006  2.5017
+      9            [36m0.7326[0m        [32m0.6980[0m  0.0006  2.5085
+     10            0.6736        [32m0.6430[0m  0.0006  2.5020
+     11            [36m0.7431[0m        [32m0.5827[0m  0.0006  2.5019
+     12            [36m0.8090[0m        [32m0.5381[0m  0.0006  2.4965
+     13            [36m0.9201[0m        [32m0.4747[0m  0.0006  2.4942
+     14            0.7014        [32m0.4369[0m  0.0006  2.5102
+     15            0.7847        [32m0.4225[0m  0.0006  2.5033
+     16            [36m0.9375[0m        [32m0.4043[0m  0.0006  2.4980
+     17            0.9132        [32m0.3563[0m  0.0006  2.5049
+     18            0.8576        [32m0.3293[0m  0.0006  2.4968
+     19            0.8194        [32m0.3012[0m  0.0006  2.4980
+     20            [36m0.9618[0m        [32m0.2853[0m  0.0006  2.5207
+     21            0.9514        [32m0.2586[0m  0.0006  2.4986
+     22            [36m0.9896[0m        [32m0.2330[0m  0.0006  2.4989
+     23            0.9896        [32m0.2146[0m  0.0006  2.4981
+     24            0.9896        [32m0.2062[0m  0.0005  2.5106
+     25            0.9340        [32m0.1930[0m  0.0005  2.4953
+     26            0.9861        [32m0.1692[0m  0.0005  2.5021
+     27            [36m0.9931[0m        [32m0.1604[0m  0.0005  2.5115
+     28            0.9931        [32m0.1537[0m  0.0005  2.5039
+     29            0.9861        [32m0.1461[0m  0.0005  2.4976
+     30            0.9757        0.1501  0.0005  2.5030
+     31            0.9861        [32m0.1397[0m  0.0005  2.5047
+     32            0.9826        [32m0.1337[0m  0.0005  2.5036
+     33            [36m0.9965[0m        [32m0.1130[0m  0.0005  2.5039
+     34            0.9896        [32m0.1072[0m  0.0005  2.4999
+     35            0.9965        [32m0.0911[0m  0.0005  2.5002
+     36            [36m1.0000[0m        [32m0.0877[0m  0.0005  2.4991
+     37            0.9965        [32m0.0847[0m  0.0004  2.5254
+     38            1.0000        [32m0.0813[0m  0.0004  2.5042
+     39            1.0000        [32m0.0802[0m  0.0004  2.4975
+     40            1.0000        [32m0.0710[0m  0.0004  2.5067
+     41            0.9965        [32m0.0694[0m  0.0004  2.5020
+     42            1.0000        [32m0.0673[0m  0.0004  2.5207
+     43            1.0000        [32m0.0644[0m  0.0004  2.5392
+     44            1.0000        [32m0.0577[0m  0.0004  2.5079
+     45            1.0000        0.0603  0.0004  2.5071
+     46            1.0000        [32m0.0548[0m  0.0004  2.5023
+     47            1.0000        [32m0.0540[0m  0.0003  2.5073
+     48            1.0000        [32m0.0473[0m  0.0003  2.4999
+     49            1.0000        [32m0.0443[0m  0.0003  2.5111
+     50            1.0000        [32m0.0430[0m  0.0003  2.5134
+     51            1.0000        0.0437  0.0003  2.5026
+     52            1.0000        [32m0.0402[0m  0.0003  2.4994
+     53            1.0000        0.0418  0.0003  2.5012
+     54            1.0000        [32m0.0393[0m  0.0003  2.4949
+     55            1.0000        [32m0.0383[0m  0.0003  2.5045
+     56            1.0000        0.0417  0.0003  2.4959
+     57            1.0000        [32m0.0357[0m  0.0002  2.5079
+     58            1.0000        0.0372  0.0002  2.4957
+     59            1.0000        0.0378  0.0002  2.5046
+     60            1.0000        0.0357  0.0002  2.5039
+     61            1.0000        [32m0.0347[0m  0.0002  2.5084
+     62            1.0000        [32m0.0312[0m  0.0002  2.4988
+     63            1.0000        0.0340  0.0002  2.5133
+     64            1.0000        0.0346  0.0002  2.5120
+     65            1.0000        [32m0.0305[0m  0.0002  2.5081
+     66            1.0000        0.0306  0.0002  2.5066
+     67            1.0000        [32m0.0297[0m  0.0002  2.5056
+     68            1.0000        0.0315  0.0001  2.4978
+     69            1.0000        0.0300  0.0001  2.4975
+     70            1.0000        [32m0.0290[0m  0.0001  2.4966
+     71            1.0000        0.0297  0.0001  2.4998
+     72            1.0000        [32m0.0273[0m  0.0001  2.5190
+     73            1.0000        0.0277  0.0001  2.4982
+     74            1.0000        [32m0.0268[0m  0.0001  2.4974
+     75            1.0000        0.0311  0.0001  2.4991
+     76            1.0000        0.0277  0.0001  2.5069
+     77            1.0000        [32m0.0261[0m  0.0001  2.4979
+     78            1.0000        0.0304  0.0001  2.5088
+     79            1.0000        0.0274  0.0001  2.4994
+     80            1.0000        0.0274  0.0001  2.4985
+     81            1.0000        [32m0.0258[0m  0.0001  2.4997
+     82            1.0000        0.0268  0.0000  2.5012
+     83            1.0000        0.0260  0.0000  2.4942
+     84            1.0000        0.0266  0.0000  2.5065
+     85            1.0000        0.0275  0.0000  2.4998
+     86            1.0000        0.0267  0.0000  2.4992
+     87            1.0000        [32m0.0245[0m  0.0000  2.6990
+     88            1.0000        0.0259  0.0000  2.9764
+     89            1.0000        0.0279  0.0000  2.4935
+     90            1.0000        0.0281  0.0000  2.4694
+     91            1.0000        0.0271  0.0000  2.4698
+     92            1.0000        0.0275  0.0000  2.4746
+     93            1.0000        0.0255  0.0000  2.4681
+     94            1.0000        [32m0.0229[0m  0.0000  2.4741
+     95            1.0000        0.0256  0.0000  2.4789
+     96            1.0000        0.0255  0.0000  2.4790
+     97            1.0000        0.0260  0.0000  2.4717
+     98            1.0000        0.0264  0.0000  2.4685
+     99            1.0000        0.0244  0.0000  2.4719
+    100            1.0000        0.0250  0.0000  2.4762
+Subject 6: test acc = 59.72% (epoch 100/100)
+
+=== Subject 7 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.3090[0m        [32m1.4340[0m  0.0006  2.5005
+      2            0.2674        [32m1.2542[0m  0.0006  2.5008
+      3            [36m0.4167[0m        [32m1.1135[0m  0.0006  2.4918
+      4            [36m0.5625[0m        [32m1.0036[0m  0.0006  2.4987
+      5            [36m0.7326[0m        [32m0.8970[0m  0.0006  2.4998
+      6            [36m0.8264[0m        [32m0.7962[0m  0.0006  2.4948
+      7            [36m0.8472[0m        [32m0.7075[0m  0.0006  2.5097
+      8            0.8090        [32m0.6249[0m  0.0006  2.5255
+      9            0.8438        [32m0.5604[0m  0.0006  2.5150
+     10            [36m0.9167[0m        [32m0.4824[0m  0.0006  2.5068
+     11            0.8854        [32m0.4270[0m  0.0006  2.5087
+     12            [36m0.9618[0m        [32m0.3670[0m  0.0006  2.4935
+     13            [36m0.9722[0m        [32m0.3202[0m  0.0006  2.5003
+     14            [36m0.9792[0m        [32m0.2729[0m  0.0006  2.5040
+     15            0.9722        [32m0.2400[0m  0.0006  2.5026
+     16            0.9410        [32m0.2141[0m  0.0006  2.5163
+     17            [36m0.9826[0m        [32m0.1964[0m  0.0006  2.5043
+     18            0.9583        [32m0.1678[0m  0.0006  2.4984
+     19            0.9236        [32m0.1505[0m  0.0006  2.5109
+     20            [36m0.9965[0m        [32m0.1353[0m  0.0006  2.4992
+     21            0.9444        [32m0.1126[0m  0.0006  2.5174
+     22            0.9965        [32m0.0974[0m  0.0006  2.5135
+     23            0.9931        [32m0.0966[0m  0.0006  2.5056
+     24            0.9792        [32m0.0793[0m  0.0005  2.5053
+     25            [36m1.0000[0m        0.0847  0.0005  2.4983
+     26            0.9722        [32m0.0692[0m  0.0005  2.5009
+     27            1.0000        [32m0.0662[0m  0.0005  2.5065
+     28            1.0000        [32m0.0634[0m  0.0005  2.5097
+     29            1.0000        [32m0.0587[0m  0.0005  2.5036
+     30            1.0000        [32m0.0551[0m  0.0005  2.4951
+     31            1.0000        [32m0.0474[0m  0.0005  2.5910
+     32            1.0000        [32m0.0394[0m  0.0005  2.5529
+     33            1.0000        [32m0.0367[0m  0.0005  2.5086
+     34            1.0000        [32m0.0352[0m  0.0005  2.5124
+     35            1.0000        [32m0.0316[0m  0.0005  2.5190
+     36            1.0000        0.0330  0.0005  2.5024
+     37            1.0000        [32m0.0316[0m  0.0004  2.5028
+     38            1.0000        [32m0.0291[0m  0.0004  2.5194
+     39            1.0000        [32m0.0285[0m  0.0004  2.5158
+     40            1.0000        [32m0.0278[0m  0.0004  2.5053
+     41            1.0000        [32m0.0230[0m  0.0004  2.5076
+     42            1.0000        [32m0.0215[0m  0.0004  2.5051
+     43            1.0000        0.0227  0.0004  2.5053
+     44            1.0000        0.0237  0.0004  2.5089
+     45            1.0000        [32m0.0201[0m  0.0004  2.5079
+     46            1.0000        [32m0.0186[0m  0.0004  2.5111
+     47            1.0000        0.0224  0.0003  2.5049
+     48            1.0000        [32m0.0175[0m  0.0003  2.5119
+     49            1.0000        [32m0.0172[0m  0.0003  2.5054
+     50            1.0000        [32m0.0158[0m  0.0003  2.5017
+     51            1.0000        [32m0.0152[0m  0.0003  2.5085
+     52            1.0000        0.0162  0.0003  2.5034
+     53            1.0000        0.0161  0.0003  2.5056
+     54            1.0000        0.0157  0.0003  2.5225
+     55            1.0000        0.0161  0.0003  2.5115
+     56            1.0000        [32m0.0137[0m  0.0003  2.5038
+     57            1.0000        0.0142  0.0002  2.4986
+     58            1.0000        0.0143  0.0002  2.4984
+     59            1.0000        0.0141  0.0002  2.4954
+     60            1.0000        [32m0.0127[0m  0.0002  2.4984
+     61            1.0000        [32m0.0126[0m  0.0002  2.5038
+     62            1.0000        0.0128  0.0002  2.5225
+     63            1.0000        [32m0.0123[0m  0.0002  2.5040
+     64            1.0000        [32m0.0111[0m  0.0002  2.5197
+     65            1.0000        0.0119  0.0002  2.5013
+     66            1.0000        0.0115  0.0002  2.5085
+     67            1.0000        0.0113  0.0002  2.4982
+     68            1.0000        0.0112  0.0001  2.5150
+     69            1.0000        [32m0.0107[0m  0.0001  2.5023
+     70            1.0000        0.0107  0.0001  2.5024
+     71            1.0000        [32m0.0106[0m  0.0001  2.5012
+     72            1.0000        0.0108  0.0001  2.5045
+     73            1.0000        0.0107  0.0001  2.5109
+     74            1.0000        [32m0.0105[0m  0.0001  2.5082
+     75            1.0000        0.0112  0.0001  2.4961
+     76            1.0000        0.0108  0.0001  2.4958
+     77            1.0000        [32m0.0102[0m  0.0001  2.5017
+     78            1.0000        [32m0.0095[0m  0.0001  2.5046
+     79            1.0000        0.0098  0.0001  2.4989
+     80            1.0000        0.0105  0.0001  2.4865
+     81            1.0000        0.0104  0.0001  2.4893
+     82            1.0000        0.0096  0.0000  2.4948
+     83            1.0000        0.0098  0.0000  2.4917
+     84            1.0000        0.0111  0.0000  2.4960
+     85            1.0000        0.0097  0.0000  2.4973
+     86            1.0000        0.0120  0.0000  2.4939
+     87            1.0000        0.0103  0.0000  2.7499
+     88            1.0000        0.0099  0.0000  2.9158
+     89            1.0000        [32m0.0094[0m  0.0000  2.4732
+     90            1.0000        0.0098  0.0000  2.4819
+     91            1.0000        [32m0.0094[0m  0.0000  2.4753
+     92            1.0000        [32m0.0088[0m  0.0000  2.4736
+     93            1.0000        0.0095  0.0000  2.4774
+     94            1.0000        0.0095  0.0000  2.4793
+     95            1.0000        0.0095  0.0000  2.4763
+     96            1.0000        0.0102  0.0000  2.4749
+     97            1.0000        0.0097  0.0000  2.4811
+     98            1.0000        0.0097  0.0000  2.4709
+     99            1.0000        0.0110  0.0000  2.4719
+    100            1.0000        0.0093  0.0000  2.4800
+Subject 7: test acc = 87.85% (epoch 100/100)
+
+=== Subject 8 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2535[0m        [32m1.2739[0m  0.0006  2.5251
+      2            [36m0.4167[0m        [32m0.9864[0m  0.0006  2.5089
+      3            [36m0.6493[0m        [32m0.8161[0m  0.0006  2.4958
+      4            [36m0.7049[0m        [32m0.6785[0m  0.0006  2.4957
+      5            [36m0.7847[0m        [32m0.5980[0m  0.0006  2.5190
+      6            [36m0.8056[0m        [32m0.5272[0m  0.0006  2.5059
+      7            [36m0.8854[0m        [32m0.4606[0m  0.0006  2.4990
+      8            [36m0.9028[0m        [32m0.4066[0m  0.0006  2.5015
+      9            0.8750        [32m0.3471[0m  0.0006  2.5145
+     10            [36m0.9271[0m        [32m0.3234[0m  0.0006  2.5083
+     11            0.9236        [32m0.2737[0m  0.0006  2.5177
+     12            [36m0.9757[0m        [32m0.2543[0m  0.0006  2.5035
+     13            0.9410        [32m0.2308[0m  0.0006  2.5074
+     14            0.9132        [32m0.2090[0m  0.0006  2.5022
+     15            0.9722        [32m0.1933[0m  0.0006  2.5075
+     16            0.9722        0.2017  0.0006  2.4990
+     17            0.9618        [32m0.1845[0m  0.0006  2.5026
+     18            0.9688        [32m0.1557[0m  0.0006  2.5036
+     19            [36m0.9931[0m        [32m0.1416[0m  0.0006  2.4979
+     20            0.9792        0.1474  0.0006  2.5012
+     21            0.9896        [32m0.1212[0m  0.0006  2.5299
+     22            0.9931        [32m0.1110[0m  0.0006  2.5356
+     23            [36m0.9965[0m        [32m0.1001[0m  0.0006  2.5205
+     24            0.9931        [32m0.0920[0m  0.0005  2.5156
+     25            0.9757        [32m0.0847[0m  0.0005  2.5088
+     26            0.9757        [32m0.0831[0m  0.0005  2.5033
+     27            0.9931        [32m0.0807[0m  0.0005  2.5068
+     28            0.9931        [32m0.0727[0m  0.0005  2.5137
+     29            0.9653        0.1030  0.0005  2.4935
+     30            0.9757        0.0993  0.0005  2.4943
+     31            0.9861        0.0801  0.0005  2.5140
+     32            0.9861        [32m0.0684[0m  0.0005  2.6430
+     33            0.9931        [32m0.0633[0m  0.0005  2.5179
+     34            [36m1.0000[0m        [32m0.0511[0m  0.0005  2.5030
+     35            1.0000        [32m0.0431[0m  0.0005  2.5164
+     36            1.0000        [32m0.0383[0m  0.0005  2.5172
+     37            1.0000        [32m0.0373[0m  0.0004  2.5002
+     38            1.0000        [32m0.0366[0m  0.0004  2.5018
+     39            1.0000        [32m0.0343[0m  0.0004  2.5130
+     40            1.0000        [32m0.0328[0m  0.0004  2.5028
+     41            1.0000        [32m0.0302[0m  0.0004  2.5003
+     42            1.0000        [32m0.0265[0m  0.0004  2.5167
+     43            1.0000        0.0296  0.0004  2.5039
+     44            1.0000        0.0279  0.0004  2.5053
+     45            1.0000        [32m0.0259[0m  0.0004  2.5064
+     46            1.0000        [32m0.0247[0m  0.0004  2.5040
+     47            1.0000        0.0306  0.0003  2.5071
+     48            1.0000        0.0270  0.0003  2.5031
+     49            1.0000        [32m0.0208[0m  0.0003  2.5012
+     50            1.0000        0.0216  0.0003  2.5034
+     51            1.0000        0.0230  0.0003  2.5125
+     52            1.0000        [32m0.0189[0m  0.0003  2.5148
+     53            1.0000        0.0199  0.0003  2.4928
+     54            1.0000        0.0209  0.0003  2.5034
+     55            1.0000        0.0190  0.0003  2.4961
+     56            1.0000        0.0211  0.0003  2.5048
+     57            1.0000        0.0191  0.0002  2.5195
+     58            1.0000        0.0202  0.0002  2.5056
+     59            1.0000        0.0218  0.0002  2.5117
+     60            1.0000        [32m0.0181[0m  0.0002  2.5090
+     61            1.0000        [32m0.0148[0m  0.0002  2.4986
+     62            1.0000        0.0152  0.0002  2.4991
+     63            1.0000        0.0155  0.0002  2.4995
+     64            1.0000        0.0160  0.0002  2.5071
+     65            1.0000        0.0159  0.0002  2.5022
+     66            1.0000        0.0150  0.0002  2.5056
+     67            1.0000        0.0175  0.0002  2.5068
+     68            1.0000        [32m0.0134[0m  0.0001  2.4999
+     69            1.0000        0.0138  0.0001  2.4949
+     70            1.0000        [32m0.0126[0m  0.0001  2.5005
+     71            1.0000        0.0149  0.0001  2.5058
+     72            1.0000        0.0139  0.0001  2.4980
+     73            1.0000        0.0129  0.0001  2.5020
+     74            1.0000        0.0155  0.0001  2.5197
+     75            1.0000        0.0143  0.0001  2.4999
+     76            1.0000        0.0158  0.0001  2.5051
+     77            1.0000        0.0130  0.0001  2.5015
+     78            1.0000        [32m0.0119[0m  0.0001  2.4984
+     79            1.0000        0.0125  0.0001  2.4980
+     80            1.0000        [32m0.0112[0m  0.0001  2.5081
+     81            1.0000        0.0117  0.0001  2.5002
+     82            1.0000        0.0131  0.0000  2.4987
+     83            1.0000        0.0129  0.0000  2.4967
+     84            1.0000        0.0135  0.0000  2.5010
+     85            1.0000        0.0117  0.0000  2.5032
+     86            1.0000        0.0175  0.0000  2.5012
+     87            1.0000        0.0127  0.0000  2.8332
+     88            1.0000        0.0121  0.0000  2.8378
+     89            1.0000        0.0116  0.0000  2.4739
+     90            1.0000        0.0135  0.0000  2.4708
+     91            1.0000        0.0116  0.0000  2.4891
+     92            1.0000        [32m0.0109[0m  0.0000  2.4711
+     93            1.0000        0.0117  0.0000  2.4791
+     94            1.0000        0.0130  0.0000  2.4756
+     95            1.0000        0.0126  0.0000  2.4688
+     96            1.0000        0.0113  0.0000  2.4759
+     97            1.0000        0.0128  0.0000  2.4795
+     98            1.0000        0.0134  0.0000  2.4714
+     99            1.0000        0.0144  0.0000  2.4802
+    100            1.0000        0.0114  0.0000  2.4741
+Subject 8: test acc = 81.25% (epoch 100/100)
+
+=== Subject 9 | clean_seed20200220_0-38Hz ===
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = mne.channels.make_standard_montage("standard_1020")
+/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
+  montage = make_standard_montage("standard_1020")
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up low-pass filter at 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal lowpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 87 samples (0.348 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.2108[0m  0.0006  2.5237
+      2            0.2500        [32m0.9619[0m  0.0006  2.4985
+      3            [36m0.3646[0m        [32m0.8178[0m  0.0006  2.4986
+      4            [36m0.6875[0m        [32m0.7157[0m  0.0006  2.5126
+      5            [36m0.7951[0m        [32m0.6129[0m  0.0006  2.5108
+      6            [36m0.8611[0m        [32m0.5371[0m  0.0006  2.5186
+      7            0.8507        [32m0.4651[0m  0.0006  2.5035
+      8            [36m0.8854[0m        [32m0.4301[0m  0.0006  2.5011
+      9            [36m0.9028[0m        [32m0.3869[0m  0.0006  2.5065
+     10            [36m0.9097[0m        [32m0.3382[0m  0.0006  2.5037
+     11            0.9097        [32m0.3055[0m  0.0006  2.5362
+     12            [36m0.9236[0m        [32m0.2697[0m  0.0006  2.5198
+     13            0.9167        [32m0.2522[0m  0.0006  2.5183
+     14            [36m0.9618[0m        [32m0.2315[0m  0.0006  2.5061
+     15            [36m0.9722[0m        [32m0.2065[0m  0.0006  2.5046
+     16            [36m0.9826[0m        [32m0.1830[0m  0.0006  2.5017
+     17            0.9792        [32m0.1651[0m  0.0006  2.5159
+     18            0.9722        [32m0.1551[0m  0.0006  2.5018
+     19            [36m0.9931[0m        [32m0.1478[0m  0.0006  2.5021
+     20            0.9861        [32m0.1322[0m  0.0006  2.5022
+     21            0.9896        0.1384  0.0006  2.5042
+     22            0.9896        [32m0.1184[0m  0.0006  2.4971
+     23            [36m0.9965[0m        [32m0.1112[0m  0.0006  2.5189
+     24            [36m1.0000[0m        [32m0.1036[0m  0.0005  2.5091
+     25            0.9861        [32m0.0972[0m  0.0005  2.5051
+     26            0.9965        [32m0.0792[0m  0.0005  2.4964
+     27            1.0000        [32m0.0775[0m  0.0005  2.5113
+     28            0.9965        [32m0.0753[0m  0.0005  2.5023
+     29            0.9965        [32m0.0679[0m  0.0005  2.4994
+     30            1.0000        0.0681  0.0005  2.5121
+     31            0.9965        [32m0.0552[0m  0.0005  2.5086
+     32            1.0000        0.0578  0.0005  2.5001
+     33            1.0000        [32m0.0514[0m  0.0005  2.4946
+     34            1.0000        0.0525  0.0005  2.5083
+     35            1.0000        [32m0.0434[0m  0.0005  2.4997
+     36            1.0000        0.0446  0.0005  2.5028
+     37            0.9965        0.0439  0.0004  2.5040
+     38            1.0000        [32m0.0423[0m  0.0004  2.5012
+     39            1.0000        [32m0.0408[0m  0.0004  2.5051
+     40            1.0000        [32m0.0383[0m  0.0004  2.5029
+     41            1.0000        [32m0.0329[0m  0.0004  2.5042
+     42            1.0000        0.0336  0.0004  2.5086
+     43            1.0000        [32m0.0316[0m  0.0004  2.5007
+     44            1.0000        [32m0.0284[0m  0.0004  2.5094
+     45            1.0000        [32m0.0277[0m  0.0004  2.4989
+     46            0.9965        [32m0.0256[0m  0.0004  2.5176
+     47            1.0000        0.0267  0.0003  2.5041
+     48            1.0000        [32m0.0242[0m  0.0003  2.5035
+     49            1.0000        0.0242  0.0003  2.5069
+     50            1.0000        0.0243  0.0003  2.5017
+     51            1.0000        [32m0.0226[0m  0.0003  2.5006
+     52            1.0000        0.0232  0.0003  2.5114
+     53            1.0000        0.0238  0.0003  2.5059
+     54            1.0000        [32m0.0211[0m  0.0003  2.5054
+     55            1.0000        [32m0.0200[0m  0.0003  2.4996
+     56            1.0000        0.0209  0.0003  2.4973
+     57            1.0000        [32m0.0188[0m  0.0002  2.5024
+     58            1.0000        0.0195  0.0002  2.5245
+     59            1.0000        [32m0.0184[0m  0.0002  2.5029
+     60            1.0000        [32m0.0179[0m  0.0002  2.5140
+     61            1.0000        [32m0.0166[0m  0.0002  2.5005
+     62            1.0000        0.0167  0.0002  2.5042
+     63            1.0000        0.0184  0.0002  2.4992
+     64            1.0000        0.0175  0.0002  2.4997
+     65            1.0000        [32m0.0161[0m  0.0002  2.4983
+     66            1.0000        0.0166  0.0002  2.5063
+     67            1.0000        [32m0.0141[0m  0.0002  2.5076
+     68            1.0000        0.0145  0.0001  2.5060
+     69            1.0000        0.0153  0.0001  2.5210
+     70            1.0000        [32m0.0137[0m  0.0001  2.5051
+     71            1.0000        0.0138  0.0001  2.5046
+     72            1.0000        0.0139  0.0001  2.4968
+     73            1.0000        0.0142  0.0001  2.5025
+     74            1.0000        0.0141  0.0001  2.5011
+     75            1.0000        0.0142  0.0001  2.5162
+     76            1.0000        0.0145  0.0001  2.4989
+     77            1.0000        [32m0.0134[0m  0.0001  2.5024
+     78            1.0000        0.0148  0.0001  2.4977
+     79            1.0000        0.0148  0.0001  2.5080
+     80            1.0000        [32m0.0131[0m  0.0001  2.5102
+     81            1.0000        [32m0.0131[0m  0.0001  2.5041
+     82            1.0000        0.0139  0.0000  2.5058
+     83            1.0000        [32m0.0122[0m  0.0000  2.5113
+     84            1.0000        0.0137  0.0000  2.4983
+     85            1.0000        [32m0.0119[0m  0.0000  2.5142
+     86            1.0000        0.0135  0.0000  2.5012
+     87            1.0000        0.0121  0.0000  2.7383
+     88            1.0000        0.0135  0.0000  2.9156
+     89            1.0000        0.0132  0.0000  2.4751
+     90            1.0000        0.0133  0.0000  2.4774
+     91            1.0000        0.0125  0.0000  2.4706
+     92            1.0000        0.0125  0.0000  2.4736
+     93            1.0000        0.0131  0.0000  2.4761
+     94            1.0000        0.0119  0.0000  2.4773
+     95            1.0000        0.0122  0.0000  2.4782
+     96            1.0000        0.0125  0.0000  2.4821
+     97            1.0000        0.0120  0.0000  2.4728
+     98            1.0000        0.0139  0.0000  2.4770
+     99            1.0000        0.0126  0.0000  2.4738
+    100            1.0000        0.0131  0.0000  2.4725
+Subject 9: test acc = 75.69% (epoch 100/100)

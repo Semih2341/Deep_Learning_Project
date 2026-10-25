@@ -1,3 +1,21 @@
+### mode = `clean`, band = 0-38 Hz, seed = 20200220
+
+| Subject | Test acc (%) | Train acc (%) | Selected epoch | Epochs run |
+|---|---|---|---|---|
+| 1 | 80.21 | 100.00 | 100 | 100 |
+| 2 | 48.61 | 100.00 | 100 | 100 |
+| 3 | 89.58 | 100.00 | 100 | 100 |
+| 4 | 64.93 | 100.00 | 100 | 100 |
+| 5 | 55.90 | 100.00 | 100 | 100 |
+| 6 | 59.72 | 100.00 | 100 | 100 |
+| 7 | 87.85 | 100.00 | 100 | 100 |
+| 8 | 81.25 | 100.00 | 100 | 100 |
+| 9 | 75.69 | 100.00 | 100 | 100 |
+| **Mean ± std** | **71.53 ± 14.71** | 100.00 | | |
+
+Subject 3: 89.58% (target 83.7%)  
+Mean over 9 subjects: 71.53% (paper, same band: 73.7%)
+
 ### mode = `clean`, band = 4-38 Hz, seed = 1
 
 | Subject | Test acc (%) | Train acc (%) | Selected epoch | Epochs run |
@@ -74,5 +92,6 @@ Mean over 9 subjects: 68.36% (paper, same band: 71.9%)
 
 | Mode | Band | Seeds | Mean acc (%) over seeds | Subject 3 (%) |
 |---|---|---|---|---|
+| clean | 0-38 Hz | 1 | 71.53 | 89.58 |
 | clean | 4-38 Hz | 3 | 70.11 ± 0.16 | 84.14 ± 0.40 |
 | tutorial | 4-38 Hz | 1 | 68.36 | 81.60 |

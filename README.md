@@ -106,13 +106,23 @@ The 9-subject mean is 70.25 / 70.14 / 69.95 for the three seeds, i.e. **70.11 ±
 Run-to-run variation (≤ 1.4 pp per subject) is much smaller than the differences between
 subjects, so the gap to the paper is not caused by an unlucky seed.
 
+**Frequency band (`clean`, seed 20200220)**
+
+| Band | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **Mean ± std** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 4–38 Hz (tutorial) | 80.56 | 43.06 | 84.38 | 66.67 | 59.72 | 54.17 | 86.46 | 76.04 | 78.47 | **69.95 ± 14.96** |
+| 0–38 Hz (paper) | 80.21 | 48.61 | 89.58 | 64.93 | 55.90 | 59.72 | 87.85 | 81.25 | 75.69 | **71.53 ± 14.71** |
+
+Keeping the frequencies below 4 Hz helps subjects 2, 3, 6 and 8 (about +5 pp each) but hurts
+5 and 9, so the value of the low-frequency content is subject-dependent.
+
 **Comparison with the targets**
 
 | | Ours (`clean`) | Ours (`tutorial`) | Reference |
 |---|---|---|---|
 | Subject 3 | 84.14 ± 0.40 (3 seeds) | 81.60 | 83.7 (braindecode tutorial) |
 | Mean, 4–38 Hz | 70.11 ± 0.16 (3 seeds) | 68.36 | 71.9 (Schirrmeister et al., Table 2) |
-| Mean, 0–38 Hz | see below | – | 73.7 (Schirrmeister et al., Table 2) |
+| Mean, 0–38 Hz | 71.53 (1 seed) | – | 73.7 (Schirrmeister et al., Table 2) |
 
 **Discussion**
 
@@ -121,7 +131,10 @@ subjects, so the gap to the paper is not caused by an unlucky seed.
 - *Which paper number to compare to.* The 73.7 % of Schirrmeister et al. was obtained with a
   0–38 Hz band. The tutorial filters 4–38 Hz, for which the paper reports 71.9 % for the
   shallow ConvNet. Against this number the clean mean (70.11 % over 3 seeds) is 1.8 pp lower,
-  which is within the normal range. A 0–38 Hz run (`--low-cut 0`) is used to check the remaining part of the gap.
+  which is within the normal range. Running the clean protocol with the paper's 0–38 Hz band
+  (`--low-cut 0`) gives 71.53 % (seed 20200220): +1.6 pp over the same seed at 4–38 Hz and
+  2.2 pp below the 73.7 % target. The paper reports +1.8 pp for the same change, so the effect
+  of the band is reproduced as well.
 - *Early stopping in the tutorial.* With `patience=10` on the noisy test loss, training stops
   after only 21–52 epochs. For subjects 2, 5 and 6 training accuracy is still at 79–83 % when it
   stops, i.e. the model is under-trained, and the cosine schedule (`T_max = 99`) has barely
@@ -144,7 +157,7 @@ subjects, so the gap to the paper is not caused by an unlucky seed.
 |---|---|
 | Hardware | Apple M1, CPU only (macOS 15.3) |
 | Software | Python 3.11.9, PyTorch 2.14.1, braindecode 1.8.1, MOABB 1.7.2, MNE 1.13.2, skorch 1.4.0 |
-| Training time | ≈ 9 min per subject for 100 epochs (≈ 6 s / epoch); 81 min for all 9 subjects in `clean` mode |
+| Training time | ≈ 9 min per subject for 100 epochs (≈ 6 s / epoch); 81 min for all 9 subjects in `clean` mode (first run; ≈ 52 min in later runs) |
 
 The versions are also stored in every result file (`env` field). The same code runs on a
 Colab/Kaggle GPU through `notebooks/01_reproduce.ipynb`.
