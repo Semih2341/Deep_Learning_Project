@@ -1,0 +1,2565 @@
+
+=== Subject 1 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Filtering raw data in 1 contiguous segment
+
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Filtering raw data in 1 contiguous segment
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+
+
+FIR filter parameters
+
+FIR filter parameters
+FIR filter parameters
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+
+---------------------
+- Lower passband edge: 4.00
+FIR filter parameters
+---------------------
+---------------------
+- Upper passband edge: 38.00 Hz
+---------------------
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+FIR filter parameters
+---------------------
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+FIR filter parameters
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Filter length: 413 samples (1.652 s)
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+---------------------
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Filter length: 413 samples (1.652 s)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Filter length: 413 samples (1.652 s)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+- Lower passband edge: 4.00
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+
+
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+
+  epoch    train_accuracy    train_loss      lr      dur
+-------  ----------------  ------------  ------  -------
+      1            [36m0.2639[0m        [32m1.1201[0m  0.0006  13.5696
+      2            [36m0.2674[0m        [32m0.8706[0m  0.0006  0.3892
+      3            [36m0.3681[0m        [32m0.7463[0m  0.0006  0.6982
+      4            [36m0.3750[0m        [32m0.6579[0m  0.0006  0.6280
+      5            [36m0.7153[0m        [32m0.5889[0m  0.0006  0.6165
+      6            [36m0.7917[0m        [32m0.5284[0m  0.0006  0.6163
+      7            0.7743        [32m0.5112[0m  0.0006  0.4179
+      8            0.7535        [32m0.4800[0m  0.0006  0.6818
+      9            [36m0.8264[0m        [32m0.4290[0m  0.0006  0.6538
+     10            [36m0.8368[0m        [32m0.3683[0m  0.0006  0.7126
+     11            [36m0.9340[0m        [32m0.3349[0m  0.0006  0.7114
+     12            0.9028        [32m0.3060[0m  0.0006  0.5176
+     13            0.9340        [32m0.2832[0m  0.0006  0.5966
+     14            0.8229        [32m0.2705[0m  0.0006  0.3892
+     15            [36m0.9757[0m        [32m0.2339[0m  0.0006  0.7802
+     16            0.9583        [32m0.2120[0m  0.0006  0.2988
+     17            0.9722        [32m0.1999[0m  0.0006  0.4774
+     18            [36m0.9931[0m        [32m0.1732[0m  0.0006  0.4392
+     19            0.9861        0.1761  0.0006  0.6022
+     20            [36m0.9965[0m        [32m0.1453[0m  0.0006  0.7838
+     21            0.9722        [32m0.1256[0m  0.0006  0.7368
+     22            0.9861        [32m0.1188[0m  0.0006  0.3993
+     23            0.9965        [32m0.1171[0m  0.0006  0.7736
+     24            [36m1.0000[0m        [32m0.1042[0m  0.0005  0.6688
+     25            0.9722        [32m0.0959[0m  0.0005  0.6241
+     26            1.0000        [32m0.0926[0m  0.0005  0.4408
+     27            1.0000        [32m0.0897[0m  0.0005  0.8484
+     28            0.9583        0.0943  0.0005  0.4355
+     29            0.9965        [32m0.0883[0m  0.0005  0.6776
+     30            1.0000        [32m0.0721[0m  0.0005  0.5624
+     31            1.0000        [32m0.0596[0m  0.0005  0.3426
+     32            1.0000        [32m0.0547[0m  0.0005  0.4435
+     33            1.0000        0.0553  0.0005  0.4202
+     34            1.0000        [32m0.0489[0m  0.0005  0.5111
+     35            1.0000        [32m0.0457[0m  0.0005  0.7232
+     36            1.0000        [32m0.0401[0m  0.0005  0.4209
+     37            1.0000        0.0465  0.0004  0.8775
+     38            1.0000        [32m0.0391[0m  0.0004  0.6057
+     39            1.0000        [32m0.0358[0m  0.0004  0.7592
+     40            1.0000        [32m0.0293[0m  0.0004  0.6633
+     41            1.0000        [32m0.0284[0m  0.0004  0.7573
+     42            1.0000        0.0326  0.0004  0.7285
+     43            1.0000        [32m0.0277[0m  0.0004  0.6175
+     44            1.0000        0.0319  0.0004  0.3950
+     45            1.0000        0.0285  0.0004  0.3903
+     46            1.0000        [32m0.0249[0m  0.0004  0.7348
+     47            1.0000        0.0259  0.0003  0.7474
+     48            1.0000        [32m0.0218[0m  0.0003  0.7347
+     49            1.0000        [32m0.0211[0m  0.0003  0.8092
+     50            1.0000        [32m0.0210[0m  0.0003  0.7708
+     51            1.0000        0.0237  0.0003  0.6172
+     52            1.0000        0.0213  0.0003  0.7729
+     53            1.0000        [32m0.0200[0m  0.0003  0.7007
+     54            1.0000        0.0225  0.0003  0.7564
+     55            1.0000        0.0219  0.0003  0.6070
+     56            1.0000        [32m0.0186[0m  0.0003  0.5603
+     57            1.0000        0.0206  0.0002  0.6207
+     58            1.0000        [32m0.0184[0m  0.0002  0.7894
+     59            1.0000        [32m0.0172[0m  0.0002  0.8495
+     60            1.0000        0.0186  0.0002  0.7684
+     61            1.0000        [32m0.0157[0m  0.0002  0.7160
+     62            1.0000        0.0177  0.0002  0.7568
+     63            1.0000        0.0165  0.0002  0.8285
+     64            1.0000        [32m0.0152[0m  0.0002  0.4407
+     65            1.0000        [32m0.0150[0m  0.0002  0.7841
+     66            1.0000        [32m0.0145[0m  0.0002  0.7761
+     67            1.0000        0.0162  0.0002  0.6833
+     68            1.0000        [32m0.0140[0m  0.0001  0.6810
+     69            1.0000        0.0145  0.0001  0.6939
+     70            1.0000        [32m0.0139[0m  0.0001  0.4023
+     71            1.0000        0.0143  0.0001  0.7010
+     72            1.0000        0.0149  0.0001  0.6127
+     73            1.0000        [32m0.0128[0m  0.0001  0.7561
+     74            1.0000        [32m0.0125[0m  0.0001  0.7038
+     75            1.0000        0.0141  0.0001  0.7871
+     76            1.0000        0.0146  0.0001  0.6632
+     77            1.0000        0.0147  0.0001  0.6940
+     78            1.0000        0.0127  0.0001  0.5211
+     79            1.0000        0.0151  0.0001  0.7781
+     80            1.0000        [32m0.0115[0m  0.0001  0.8227
+     81            1.0000        0.0136  0.0001  0.7102
+     82            1.0000        0.0136  0.0000  0.7048
+     83            1.0000        0.0120  0.0000  0.3937
+     84            1.0000        0.0131  0.0000  0.6515
+     85            1.0000        0.0135  0.0000  0.6392
+     86            1.0000        0.0129  0.0000  0.3479
+     87            1.0000        [32m0.0113[0m  0.0000  0.4220
+     88            1.0000        0.0117  0.0000  0.6887
+     89            1.0000        0.0128  0.0000  0.6844
+     90            1.0000        0.0123  0.0000  0.7677
+     91            1.0000        0.0118  0.0000  0.7356
+     92            1.0000        0.0153  0.0000  0.6302
+     93            1.0000        0.0123  0.0000  0.7724
+     94            1.0000        0.0120  0.0000  0.7334
+     95            1.0000        0.0116  0.0000  0.6862
+     96            1.0000        0.0115  0.0000  0.3563
+     97            1.0000        [32m0.0110[0m  0.0000  0.6174
+     98            1.0000        0.0113  0.0000  0.7067
+     99            1.0000        0.0113  0.0000  0.7140
+    100            1.0000        0.0133  0.0000  0.6282
+Subject 1: test acc = 77.78% (epoch 100/100)
+
+=== Subject 2 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+---------------------
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+---------------------
+
+Setting up band-pass filter from 4 - 38 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Setting up band-pass filter from 4 - 38 Hz
+---------------------
+
+FIR filter parameters
+
+
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+
+- Windowed time-domain design (firwin) method
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+---------------------
+FIR filter parameters
+FIR filter parameters
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+FIR filter parameters
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+FIR filter parameters
+- Windowed time-domain design (firwin) method
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Lower passband edge: 4.00
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.4224[0m  0.0006  0.4687
+      2            0.2500        [32m1.3043[0m  0.0006  0.3745
+      3            0.2500        [32m1.2561[0m  0.0006  0.5727
+      4            [36m0.2986[0m        [32m1.1840[0m  0.0006  0.8633
+      5            [36m0.4167[0m        [32m1.1192[0m  0.0006  0.5081
+      6            [36m0.5694[0m        [32m1.0523[0m  0.0006  0.8540
+      7            [36m0.5903[0m        [32m0.9790[0m  0.0006  0.4050
+      8            [36m0.7118[0m        [32m0.9034[0m  0.0006  0.6497
+      9            0.7049        [32m0.8087[0m  0.0006  0.5256
+     10            [36m0.8194[0m        [32m0.7470[0m  0.0006  0.6234
+     11            0.7188        [32m0.6676[0m  0.0006  0.5682
+     12            [36m0.8507[0m        [32m0.6096[0m  0.0006  0.3286
+     13            0.7639        [32m0.5593[0m  0.0006  0.7972
+     14            0.8472        [32m0.5047[0m  0.0006  0.5305
+     15            0.6528        [32m0.4835[0m  0.0006  0.6587
+     16            0.7812        [32m0.4411[0m  0.0006  0.7766
+     17            [36m0.9132[0m        [32m0.3846[0m  0.0006  0.7412
+     18            0.8819        [32m0.3536[0m  0.0006  0.8639
+     19            [36m0.9618[0m        [32m0.3324[0m  0.0006  0.6233
+     20            0.9583        [32m0.3143[0m  0.0006  0.6512
+     21            0.8021        0.3195  0.0006  0.6012
+     22            [36m0.9688[0m        [32m0.2957[0m  0.0006  0.7236
+     23            0.9479        [32m0.2412[0m  0.0006  0.4432
+     24            0.9618        [32m0.2195[0m  0.0005  0.3297
+     25            [36m0.9861[0m        [32m0.2095[0m  0.0005  0.4212
+     26            0.9375        [32m0.1862[0m  0.0005  0.3484
+     27            0.9236        [32m0.1792[0m  0.0005  0.2965
+     28            0.9375        [32m0.1597[0m  0.0005  0.2721
+     29            0.8854        [32m0.1439[0m  0.0005  0.5301
+     30            [36m0.9931[0m        [32m0.1336[0m  0.0005  0.3647
+     31            0.9826        [32m0.1270[0m  0.0005  0.8347
+     32            0.9931        [32m0.1195[0m  0.0005  0.5281
+     33            [36m1.0000[0m        [32m0.1083[0m  0.0005  0.7321
+     34            1.0000        [32m0.0990[0m  0.0005  0.2666
+     35            1.0000        [32m0.0902[0m  0.0005  0.3722
+     36            1.0000        [32m0.0854[0m  0.0005  0.3329
+     37            0.9931        0.0858  0.0004  0.8107
+     38            1.0000        [32m0.0841[0m  0.0004  0.7791
+     39            1.0000        [32m0.0683[0m  0.0004  0.7811
+     40            1.0000        0.0729  0.0004  0.4236
+     41            0.9965        0.0686  0.0004  0.6508
+     42            0.9896        [32m0.0671[0m  0.0004  0.6259
+     43            1.0000        0.0676  0.0004  0.7370
+     44            1.0000        [32m0.0604[0m  0.0004  0.7055
+     45            1.0000        [32m0.0579[0m  0.0004  0.6707
+     46            1.0000        [32m0.0564[0m  0.0004  0.7930
+     47            1.0000        [32m0.0519[0m  0.0003  0.7078
+     48            1.0000        0.0537  0.0003  0.5358
+     49            1.0000        0.0525  0.0003  0.7012
+     50            1.0000        [32m0.0490[0m  0.0003  0.7680
+     51            1.0000        [32m0.0464[0m  0.0003  0.4014
+     52            1.0000        [32m0.0408[0m  0.0003  0.5454
+     53            1.0000        [32m0.0398[0m  0.0003  0.6276
+     54            1.0000        [32m0.0368[0m  0.0003  0.4969
+     55            1.0000        0.0372  0.0003  0.5909
+     56            1.0000        0.0378  0.0003  0.3739
+     57            1.0000        [32m0.0348[0m  0.0002  0.3541
+     58            1.0000        [32m0.0342[0m  0.0002  0.5235
+     59            1.0000        [32m0.0332[0m  0.0002  0.2910
+     60            1.0000        [32m0.0319[0m  0.0002  0.3146
+     61            1.0000        [32m0.0309[0m  0.0002  0.4427
+     62            1.0000        0.0318  0.0002  0.3896
+     63            1.0000        0.0317  0.0002  0.1878
+     64            1.0000        [32m0.0299[0m  0.0002  0.1509
+     65            1.0000        [32m0.0287[0m  0.0002  0.1752
+     66            1.0000        [32m0.0263[0m  0.0002  0.1924
+     67            1.0000        0.0293  0.0002  0.2181
+     68            1.0000        0.0289  0.0001  0.1922
+     69            1.0000        0.0269  0.0001  0.1856
+     70            1.0000        0.0270  0.0001  0.1875
+     71            1.0000        [32m0.0258[0m  0.0001  0.1766
+     72            1.0000        0.0263  0.0001  0.1756
+     73            1.0000        0.0267  0.0001  0.1818
+     74            1.0000        [32m0.0252[0m  0.0001  0.1871
+     75            1.0000        0.0264  0.0001  0.1754
+     76            1.0000        [32m0.0243[0m  0.0001  0.1744
+     77            1.0000        0.0258  0.0001  0.1697
+     78            1.0000        0.0249  0.0001  0.1817
+     79            1.0000        0.0246  0.0001  0.1777
+     80            1.0000        0.0264  0.0001  0.1706
+     81            1.0000        [32m0.0234[0m  0.0001  0.1697
+     82            1.0000        0.0234  0.0000  0.1758
+     83            1.0000        0.0240  0.0000  0.1795
+     84            1.0000        0.0243  0.0000  0.1818
+     85            1.0000        0.0281  0.0000  0.1817
+     86            1.0000        [32m0.0226[0m  0.0000  0.1697
+     87            1.0000        0.0246  0.0000  0.1795
+     88            1.0000        0.0229  0.0000  0.1819
+     89            1.0000        0.0247  0.0000  0.1887
+     90            1.0000        0.0234  0.0000  0.1818
+     91            1.0000        0.0231  0.0000  0.1714
+     92            1.0000        0.0240  0.0000  0.1820
+     93            1.0000        0.0231  0.0000  0.1819
+     94            1.0000        [32m0.0223[0m  0.0000  0.1749
+     95            1.0000        0.0236  0.0000  0.1760
+     96            1.0000        0.0246  0.0000  0.1860
+     97            1.0000        0.0254  0.0000  0.2181
+     98            1.0000        0.0255  0.0000  0.1824
+     99            1.0000        0.0229  0.0000  0.1700
+    100            1.0000        0.0229  0.0000  0.1818
+Subject 2: test acc = 43.75% (epoch 100/100)
+
+=== Subject 3 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+
+
+
+---------------------
+
+
+FIR filter parameters
+
+---------------------
+FIR filter parameters
+FIR filter parameters
+FIR filter parameters
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+FIR filter parameters
+---------------------
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+---------------------
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+
+- Filter length: 413 samples (1.652 s)
+
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+
+- Filter length: 413 samples (1.652 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2708[0m        [32m1.1858[0m  0.0006  0.3270
+      2            0.2639        [32m0.9524[0m  0.0006  0.1839
+      3            [36m0.4132[0m        [32m0.8104[0m  0.0006  0.1456
+      4            [36m0.7812[0m        [32m0.6843[0m  0.0006  0.1799
+      5            [36m0.8368[0m        [32m0.5672[0m  0.0006  0.1896
+      6            [36m0.9062[0m        [32m0.4750[0m  0.0006  0.2118
+      7            0.9062        [32m0.3963[0m  0.0006  0.1913
+      8            0.7743        [32m0.3499[0m  0.0006  0.1940
+      9            [36m0.9167[0m        [32m0.2970[0m  0.0006  0.1795
+     10            [36m0.9306[0m        [32m0.2677[0m  0.0006  0.1756
+     11            [36m0.9653[0m        [32m0.2433[0m  0.0006  0.1877
+     12            0.9271        [32m0.2161[0m  0.0006  0.1741
+     13            0.8576        [32m0.2140[0m  0.0006  0.1757
+     14            0.9514        [32m0.1789[0m  0.0006  0.1790
+     15            0.9583        0.1855  0.0006  0.1838
+     16            [36m0.9931[0m        [32m0.1618[0m  0.0006  0.1823
+     17            0.9653        [32m0.1365[0m  0.0006  0.1698
+     18            [36m0.9965[0m        [32m0.1222[0m  0.0006  0.1760
+     19            0.9757        [32m0.1159[0m  0.0006  0.1909
+     20            0.9757        [32m0.0979[0m  0.0006  0.1783
+     21            0.9653        0.1190  0.0006  0.1665
+     22            0.9722        [32m0.0896[0m  0.0006  0.1877
+     23            [36m1.0000[0m        [32m0.0804[0m  0.0006  0.1965
+     24            0.9861        0.0822  0.0005  0.1953
+     25            0.9896        [32m0.0668[0m  0.0005  0.1757
+     26            1.0000        0.0674  0.0005  0.1846
+     27            1.0000        [32m0.0577[0m  0.0005  0.1949
+     28            0.9896        [32m0.0549[0m  0.0005  0.2363
+     29            0.9931        [32m0.0494[0m  0.0005  0.2059
+     30            0.9965        [32m0.0466[0m  0.0005  0.1699
+     31            0.9965        [32m0.0460[0m  0.0005  0.1986
+     32            1.0000        0.0666  0.0005  0.1799
+     33            1.0000        0.0527  0.0005  0.1686
+     34            1.0000        [32m0.0439[0m  0.0005  0.1697
+     35            1.0000        [32m0.0349[0m  0.0005  0.1818
+     36            1.0000        [32m0.0335[0m  0.0005  0.1817
+     37            0.9965        0.0347  0.0004  0.2057
+     38            1.0000        0.0374  0.0004  0.2006
+     39            1.0000        [32m0.0288[0m  0.0004  0.1783
+     40            1.0000        0.0302  0.0004  0.1785
+     41            1.0000        [32m0.0242[0m  0.0004  0.1782
+     42            1.0000        [32m0.0220[0m  0.0004  0.1758
+     43            1.0000        0.0243  0.0004  0.1942
+     44            1.0000        0.0297  0.0004  0.1856
+     45            1.0000        0.0267  0.0004  0.1752
+     46            1.0000        0.0257  0.0004  0.1739
+     47            1.0000        0.0238  0.0003  0.1757
+     48            1.0000        0.0225  0.0003  0.1659
+     49            1.0000        0.0278  0.0003  0.1810
+     50            1.0000        [32m0.0197[0m  0.0003  0.1985
+     51            1.0000        0.0240  0.0003  0.1899
+     52            1.0000        [32m0.0194[0m  0.0003  0.1718
+     53            1.0000        [32m0.0161[0m  0.0003  0.1757
+     54            1.0000        [32m0.0151[0m  0.0003  0.1686
+     55            1.0000        0.0154  0.0003  0.1919
+     56            1.0000        0.0157  0.0003  0.1856
+     57            1.0000        [32m0.0146[0m  0.0002  0.1584
+     58            1.0000        [32m0.0127[0m  0.0002  0.1652
+     59            1.0000        0.0141  0.0002  0.1874
+     60            1.0000        0.0139  0.0002  0.1823
+     61            1.0000        [32m0.0115[0m  0.0002  0.1852
+     62            1.0000        0.0118  0.0002  0.2069
+     63            1.0000        0.0118  0.0002  0.1824
+     64            1.0000        0.0120  0.0002  0.1642
+     65            1.0000        [32m0.0112[0m  0.0002  0.1715
+     66            1.0000        [32m0.0108[0m  0.0002  0.1846
+     67            1.0000        0.0115  0.0002  0.1923
+     68            1.0000        0.0133  0.0001  0.1913
+     69            1.0000        0.0113  0.0001  0.1605
+     70            1.0000        [32m0.0101[0m  0.0001  0.1817
+     71            1.0000        0.0115  0.0001  0.1982
+     72            1.0000        0.0103  0.0001  0.1971
+     73            1.0000        0.0103  0.0001  0.2040
+     74            1.0000        [32m0.0099[0m  0.0001  0.1546
+     75            1.0000        0.0101  0.0001  0.1804
+     76            1.0000        0.0106  0.0001  0.1760
+     77            1.0000        0.0106  0.0001  0.2073
+     78            1.0000        0.0101  0.0001  0.1749
+     79            1.0000        0.0100  0.0001  0.1677
+     80            1.0000        0.0100  0.0001  0.1836
+     81            1.0000        0.0114  0.0001  0.1777
+     82            1.0000        0.0100  0.0000  0.2046
+     83            1.0000        [32m0.0096[0m  0.0000  0.1732
+     84            1.0000        0.0109  0.0000  0.1940
+     85            1.0000        0.0099  0.0000  0.1663
+     86            1.0000        0.0110  0.0000  0.1686
+     87            1.0000        [32m0.0091[0m  0.0000  0.1748
+     88            1.0000        0.0110  0.0000  0.1829
+     89            1.0000        [32m0.0090[0m  0.0000  0.2042
+     90            1.0000        [32m0.0084[0m  0.0000  0.1960
+     91            1.0000        0.0089  0.0000  0.1834
+     92            1.0000        0.0113  0.0000  0.1773
+     93            1.0000        0.0102  0.0000  0.1835
+     94            1.0000        0.0097  0.0000  0.1793
+     95            1.0000        0.0116  0.0000  0.1791
+     96            1.0000        0.0118  0.0000  0.1733
+     97            1.0000        0.0093  0.0000  0.2121
+     98            1.0000        0.0105  0.0000  0.1784
+     99            1.0000        0.0093  0.0000  0.1634
+    100            1.0000        0.0101  0.0000  0.1641
+Subject 3: test acc = 85.07% (epoch 100/100)
+
+=== Subject 4 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+Filtering raw data in 1 contiguous segment
+- Filter length: 413 samples (1.652 s)
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+---------------------
+
+FIR filter parameters
+
+
+---------------------
+FIR filter parameters
+
+---------------------
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+---------------------
+FIR filter parameters
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+
+
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Filter length: 413 samples (1.652 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2569[0m        [32m1.3304[0m  0.0006  0.3092
+      2            [36m0.3403[0m        [32m1.1842[0m  0.0006  0.1651
+      3            [36m0.4028[0m        [32m1.0881[0m  0.0006  0.1715
+      4            [36m0.6424[0m        [32m1.0068[0m  0.0006  0.2205
+      5            [36m0.6597[0m        [32m0.9181[0m  0.0006  0.2302
+      6            [36m0.7569[0m        [32m0.8451[0m  0.0006  0.1923
+      7            0.6875        [32m0.7687[0m  0.0006  0.1941
+      8            0.7153        [32m0.6971[0m  0.0006  0.1815
+      9            [36m0.7917[0m        [32m0.6278[0m  0.0006  0.1914
+     10            [36m0.8403[0m        [32m0.5805[0m  0.0006  0.1668
+     11            [36m0.9132[0m        [32m0.5321[0m  0.0006  0.2274
+     12            0.8993        [32m0.4724[0m  0.0006  0.1750
+     13            [36m0.9549[0m        [32m0.4332[0m  0.0006  0.1816
+     14            0.9375        [32m0.3836[0m  0.0006  0.1878
+     15            0.8681        [32m0.3559[0m  0.0006  0.2024
+     16            0.9479        [32m0.3278[0m  0.0006  0.1599
+     17            [36m0.9618[0m        [32m0.2984[0m  0.0006  0.1826
+     18            0.9549        [32m0.2759[0m  0.0006  0.1689
+     19            [36m0.9757[0m        [32m0.2583[0m  0.0006  0.1820
+     20            [36m0.9931[0m        [32m0.2221[0m  0.0006  0.1657
+     21            0.9896        [32m0.2026[0m  0.0006  0.1850
+     22            0.9062        [32m0.1915[0m  0.0006  0.1790
+     23            [36m1.0000[0m        [32m0.1718[0m  0.0006  0.1896
+     24            0.9861        [32m0.1655[0m  0.0005  0.1821
+     25            1.0000        [32m0.1459[0m  0.0005  0.1675
+     26            0.9792        [32m0.1360[0m  0.0005  0.1879
+     27            0.9931        [32m0.1295[0m  0.0005  0.1766
+     28            0.9931        [32m0.1116[0m  0.0005  0.2031
+     29            1.0000        [32m0.1061[0m  0.0005  0.1778
+     30            1.0000        [32m0.0908[0m  0.0005  0.1595
+     31            1.0000        [32m0.0845[0m  0.0005  0.1750
+     32            1.0000        [32m0.0757[0m  0.0005  0.1822
+     33            1.0000        [32m0.0735[0m  0.0005  0.1861
+     34            1.0000        [32m0.0678[0m  0.0005  0.2010
+     35            1.0000        [32m0.0656[0m  0.0005  0.2004
+     36            1.0000        [32m0.0605[0m  0.0005  0.1831
+     37            1.0000        [32m0.0544[0m  0.0004  0.1716
+     38            1.0000        [32m0.0534[0m  0.0004  0.1822
+     39            1.0000        0.0539  0.0004  0.1811
+     40            1.0000        [32m0.0498[0m  0.0004  0.1757
+     41            1.0000        [32m0.0439[0m  0.0004  0.1786
+     42            1.0000        [32m0.0429[0m  0.0004  0.1834
+     43            1.0000        0.0437  0.0004  0.1733
+     44            1.0000        [32m0.0414[0m  0.0004  0.1759
+     45            1.0000        [32m0.0407[0m  0.0004  0.1960
+     46            1.0000        [32m0.0399[0m  0.0004  0.1898
+     47            1.0000        [32m0.0366[0m  0.0003  0.1749
+     48            1.0000        [32m0.0348[0m  0.0003  0.1883
+     49            1.0000        [32m0.0321[0m  0.0003  0.1781
+     50            1.0000        [32m0.0310[0m  0.0003  0.1813
+     51            1.0000        [32m0.0286[0m  0.0003  0.1774
+     52            1.0000        [32m0.0260[0m  0.0003  0.1912
+     53            1.0000        0.0269  0.0003  0.1870
+     54            1.0000        0.0275  0.0003  0.1790
+     55            1.0000        0.0275  0.0003  0.1663
+     56            1.0000        0.0272  0.0003  0.1948
+     57            1.0000        [32m0.0255[0m  0.0002  0.1698
+     58            1.0000        [32m0.0243[0m  0.0002  0.1832
+     59            1.0000        [32m0.0233[0m  0.0002  0.1726
+     60            1.0000        [32m0.0222[0m  0.0002  0.1816
+     61            1.0000        0.0233  0.0002  0.1753
+     62            1.0000        0.0237  0.0002  0.1697
+     63            1.0000        0.0227  0.0002  0.1819
+     64            1.0000        0.0226  0.0002  0.1820
+     65            1.0000        [32m0.0217[0m  0.0002  0.1889
+     66            1.0000        [32m0.0206[0m  0.0002  0.1748
+     67            1.0000        [32m0.0199[0m  0.0002  0.1693
+     68            1.0000        0.0201  0.0001  0.1871
+     69            1.0000        [32m0.0198[0m  0.0001  0.1941
+     70            1.0000        [32m0.0191[0m  0.0001  0.2054
+     71            1.0000        0.0210  0.0001  0.1856
+     72            1.0000        0.0217  0.0001  0.1820
+     73            1.0000        0.0211  0.0001  0.1762
+     74            1.0000        0.0197  0.0001  0.1718
+     75            1.0000        0.0205  0.0001  0.1856
+     76            1.0000        [32m0.0172[0m  0.0001  0.1810
+     77            1.0000        0.0185  0.0001  0.1659
+     78            1.0000        0.0175  0.0001  0.1760
+     79            1.0000        0.0173  0.0001  0.1818
+     80            1.0000        0.0175  0.0001  0.2121
+     81            1.0000        0.0184  0.0001  0.2814
+     82            1.0000        [32m0.0165[0m  0.0000  0.2522
+     83            1.0000        0.0192  0.0000  0.2039
+     84            1.0000        0.0176  0.0000  0.1695
+     85            1.0000        0.0188  0.0000  0.1735
+     86            1.0000        0.0177  0.0000  0.1974
+     87            1.0000        0.0170  0.0000  0.2216
+     88            1.0000        0.0185  0.0000  0.1917
+     89            1.0000        0.0178  0.0000  0.1807
+     90            1.0000        0.0190  0.0000  0.1724
+     91            1.0000        0.0174  0.0000  0.1889
+     92            1.0000        0.0177  0.0000  0.1917
+     93            1.0000        0.0169  0.0000  0.2202
+     94            1.0000        0.0182  0.0000  0.1816
+     95            1.0000        0.0181  0.0000  0.1798
+     96            1.0000        0.0174  0.0000  0.1880
+     97            1.0000        0.0172  0.0000  0.1729
+     98            1.0000        0.0179  0.0000  0.2096
+     99            1.0000        0.0175  0.0000  0.2077
+    100            1.0000        0.0169  0.0000  0.2251
+Subject 4: test acc = 70.14% (epoch 100/100)
+
+=== Subject 5 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+FIR filter parameters
+
+
+FIR filter parameters
+---------------------
+FIR filter parameters
+
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+---------------------
+FIR filter parameters
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+FIR filter parameters
+
+
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+FIR filter parameters
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+
+
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.3832[0m  0.0006  0.3210
+      2            [36m0.2812[0m        [32m1.2762[0m  0.0006  0.1584
+      3            0.2569        [32m1.1967[0m  0.0006  0.1688
+      4            [36m0.3854[0m        [32m1.1355[0m  0.0006  0.1737
+      5            [36m0.4965[0m        [32m1.0524[0m  0.0006  0.1911
+      6            [36m0.5694[0m        [32m0.9834[0m  0.0006  0.1811
+      7            [36m0.6111[0m        [32m0.9213[0m  0.0006  0.1799
+      8            [36m0.6389[0m        [32m0.8637[0m  0.0006  0.1825
+      9            [36m0.7847[0m        [32m0.7888[0m  0.0006  0.1974
+     10            0.6319        [32m0.7289[0m  0.0006  0.1804
+     11            0.7431        [32m0.6739[0m  0.0006  0.1847
+     12            [36m0.8958[0m        [32m0.6244[0m  0.0006  0.1779
+     13            0.7535        [32m0.5650[0m  0.0006  0.1904
+     14            0.7986        [32m0.5157[0m  0.0006  0.1712
+     15            0.7361        [32m0.4842[0m  0.0006  0.1820
+     16            0.8924        [32m0.4337[0m  0.0006  0.1834
+     17            0.8264        [32m0.4126[0m  0.0006  0.1732
+     18            [36m0.9514[0m        [32m0.3800[0m  0.0006  0.1744
+     19            0.9201        [32m0.3478[0m  0.0006  0.2032
+     20            0.9062        [32m0.3108[0m  0.0006  0.1939
+     21            0.9479        [32m0.2932[0m  0.0006  0.1941
+     22            0.8611        [32m0.2713[0m  0.0006  0.2028
+     23            0.7743        [32m0.2402[0m  0.0006  0.1815
+     24            [36m0.9653[0m        [32m0.2198[0m  0.0005  0.2065
+     25            [36m0.9931[0m        [32m0.1957[0m  0.0005  0.1757
+     26            0.9896        [32m0.1754[0m  0.0005  0.1635
+     27            0.9861        [32m0.1724[0m  0.0005  0.1789
+     28            0.9792        [32m0.1482[0m  0.0005  0.1951
+     29            0.9931        [32m0.1440[0m  0.0005  0.1820
+     30            [36m1.0000[0m        [32m0.1357[0m  0.0005  0.1698
+     31            1.0000        [32m0.1295[0m  0.0005  0.1762
+     32            0.9931        0.1315  0.0005  0.1817
+     33            0.9931        [32m0.1231[0m  0.0005  0.1857
+     34            0.9931        [32m0.1119[0m  0.0005  0.1742
+     35            0.9931        [32m0.0991[0m  0.0005  0.1785
+     36            1.0000        [32m0.0918[0m  0.0005  0.1701
+     37            1.0000        0.0920  0.0004  0.1810
+     38            1.0000        [32m0.0826[0m  0.0004  0.1798
+     39            1.0000        [32m0.0703[0m  0.0004  0.2067
+     40            1.0000        0.0751  0.0004  0.1653
+     41            1.0000        [32m0.0664[0m  0.0004  0.1837
+     42            1.0000        0.0679  0.0004  0.1703
+     43            0.9965        0.0697  0.0004  0.1851
+     44            1.0000        [32m0.0637[0m  0.0004  0.2003
+     45            1.0000        [32m0.0624[0m  0.0004  0.1947
+     46            1.0000        [32m0.0562[0m  0.0004  0.1741
+     47            1.0000        [32m0.0528[0m  0.0003  0.1757
+     48            1.0000        [32m0.0505[0m  0.0003  0.1771
+     49            1.0000        [32m0.0485[0m  0.0003  0.1999
+     50            1.0000        [32m0.0435[0m  0.0003  0.1697
+     51            1.0000        [32m0.0404[0m  0.0003  0.1697
+     52            1.0000        [32m0.0388[0m  0.0003  0.1868
+     53            1.0000        [32m0.0360[0m  0.0003  0.1837
+     54            1.0000        0.0374  0.0003  0.2612
+     55            1.0000        [32m0.0350[0m  0.0003  0.1815
+     56            1.0000        0.0351  0.0003  0.1713
+     57            1.0000        0.0350  0.0002  0.1637
+     58            1.0000        [32m0.0322[0m  0.0002  0.1728
+     59            1.0000        [32m0.0320[0m  0.0002  0.2032
+     60            1.0000        0.0324  0.0002  0.1940
+     61            1.0000        [32m0.0296[0m  0.0002  0.1986
+     62            1.0000        [32m0.0293[0m  0.0002  0.1815
+     63            1.0000        0.0309  0.0002  0.1790
+     64            1.0000        [32m0.0278[0m  0.0002  0.1813
+     65            1.0000        [32m0.0270[0m  0.0002  0.1886
+     66            1.0000        0.0277  0.0002  0.1768
+     67            1.0000        [32m0.0261[0m  0.0002  0.1898
+     68            1.0000        [32m0.0250[0m  0.0001  0.1755
+     69            1.0000        [32m0.0248[0m  0.0001  0.1722
+     70            1.0000        [32m0.0245[0m  0.0001  0.1829
+     71            1.0000        0.0264  0.0001  0.1904
+     72            1.0000        [32m0.0241[0m  0.0001  0.1970
+     73            1.0000        0.0248  0.0001  0.1950
+     74            1.0000        0.0244  0.0001  0.1802
+     75            1.0000        0.0245  0.0001  0.1706
+     76            1.0000        [32m0.0213[0m  0.0001  0.1718
+     77            1.0000        0.0242  0.0001  0.1879
+     78            1.0000        0.0228  0.0001  0.1882
+     79            1.0000        0.0220  0.0001  0.1988
+     80            1.0000        0.0234  0.0001  0.2170
+     81            1.0000        0.0224  0.0001  0.2056
+     82            1.0000        0.0233  0.0000  0.1871
+     83            1.0000        0.0233  0.0000  0.1779
+     84            1.0000        0.0232  0.0000  0.1798
+     85            1.0000        0.0235  0.0000  0.1755
+     86            1.0000        [32m0.0210[0m  0.0000  0.1759
+     87            1.0000        0.0223  0.0000  0.1719
+     88            1.0000        0.0211  0.0000  0.1750
+     89            1.0000        [32m0.0209[0m  0.0000  0.1814
+     90            1.0000        [32m0.0196[0m  0.0000  0.1661
+     91            1.0000        0.0210  0.0000  0.1883
+     92            1.0000        0.0211  0.0000  0.1820
+     93            1.0000        0.0208  0.0000  0.1865
+     94            1.0000        0.0205  0.0000  0.1804
+     95            1.0000        0.0218  0.0000  0.1741
+     96            1.0000        0.0231  0.0000  0.1883
+     97            1.0000        0.0221  0.0000  0.1905
+     98            1.0000        0.0234  0.0000  0.1862
+     99            1.0000        0.0207  0.0000  0.1765
+    100            1.0000        0.0212  0.0000  0.1915
+Subject 5: test acc = 59.03% (epoch 100/100)
+
+=== Subject 6 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+Filtering raw data in 1 contiguous segment
+
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+---------------------
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Filtering raw data in 1 contiguous segment
+---------------------
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+- Windowed time-domain design (firwin) method
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+Setting up band-pass filter from 4 - 38 Hz
+---------------------
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+
+FIR filter parameters
+---------------------
+
+- Windowed time-domain design (firwin) method
+FIR filter parameters
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+
+FIR filter parameters
+- Lower passband edge: 4.00
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+FIR filter parameters
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+---------------------
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+---------------------
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Lower passband edge: 4.00
+- Filter length: 413 samples (1.652 s)
+
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+
+- Filter length: 413 samples (1.652 s)
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.3507[0m        [32m1.3582[0m  0.0006  0.2970
+      2            [36m0.4062[0m        [32m1.2193[0m  0.0006  0.1566
+      3            [36m0.4861[0m        [32m1.1552[0m  0.0006  0.1774
+      4            [36m0.5278[0m        [32m1.0805[0m  0.0006  0.1965
+      5            [36m0.6146[0m        [32m1.0226[0m  0.0006  0.2201
+      6            [36m0.6632[0m        [32m0.9507[0m  0.0006  0.1774
+      7            [36m0.6806[0m        [32m0.8908[0m  0.0006  0.1802
+      8            [36m0.7361[0m        [32m0.8401[0m  0.0006  0.1702
+      9            0.7257        [32m0.7832[0m  0.0006  0.1765
+     10            [36m0.8021[0m        [32m0.7113[0m  0.0006  0.1829
+     11            0.7847        [32m0.6534[0m  0.0006  0.1878
+     12            0.7917        [32m0.6046[0m  0.0006  0.2112
+     13            [36m0.8368[0m        [32m0.5576[0m  0.0006  0.1817
+     14            [36m0.8715[0m        [32m0.5138[0m  0.0006  0.1776
+     15            [36m0.8993[0m        [32m0.4746[0m  0.0006  0.1739
+     16            0.8750        [32m0.4360[0m  0.0006  0.1761
+     17            [36m0.9479[0m        [32m0.4112[0m  0.0006  0.1822
+     18            0.9479        [32m0.3674[0m  0.0006  0.1791
+     19            0.9444        [32m0.3279[0m  0.0006  0.1993
+     20            [36m0.9826[0m        [32m0.3080[0m  0.0006  0.1830
+     21            0.9688        [32m0.2883[0m  0.0006  0.1617
+     22            0.9444        [32m0.2626[0m  0.0006  0.1678
+     23            [36m0.9965[0m        [32m0.2502[0m  0.0006  0.2058
+     24            0.9965        [32m0.2363[0m  0.0005  0.1796
+     25            0.9965        [32m0.2108[0m  0.0005  0.1826
+     26            0.9653        [32m0.1937[0m  0.0005  0.1782
+     27            [36m1.0000[0m        [32m0.1917[0m  0.0005  0.2182
+     28            0.9688        [32m0.1747[0m  0.0005  0.2100
+     29            0.9965        [32m0.1606[0m  0.0005  0.1724
+     30            0.9931        [32m0.1504[0m  0.0005  0.1617
+     31            0.9965        [32m0.1389[0m  0.0005  0.1724
+     32            1.0000        [32m0.1276[0m  0.0005  0.1838
+     33            1.0000        [32m0.1124[0m  0.0005  0.1796
+     34            1.0000        [32m0.1096[0m  0.0005  0.2101
+     35            1.0000        [32m0.1009[0m  0.0005  0.1834
+     36            1.0000        0.1195  0.0005  0.1939
+     37            0.9965        [32m0.0995[0m  0.0004  0.1816
+     38            1.0000        [32m0.0924[0m  0.0004  0.1777
+     39            1.0000        0.0924  0.0004  0.1654
+     40            1.0000        [32m0.0824[0m  0.0004  0.1799
+     41            1.0000        [32m0.0749[0m  0.0004  0.1859
+     42            1.0000        [32m0.0666[0m  0.0004  0.1901
+     43            1.0000        0.0702  0.0004  0.1919
+     44            1.0000        [32m0.0620[0m  0.0004  0.1807
+     45            1.0000        0.0629  0.0004  0.1759
+     46            1.0000        [32m0.0583[0m  0.0004  0.1715
+     47            1.0000        [32m0.0565[0m  0.0003  0.1948
+     48            1.0000        0.0592  0.0003  0.2081
+     49            1.0000        0.0567  0.0003  0.1707
+     50            1.0000        [32m0.0525[0m  0.0003  0.2006
+     51            1.0000        0.0554  0.0003  0.1653
+     52            1.0000        [32m0.0487[0m  0.0003  0.1678
+     53            1.0000        [32m0.0483[0m  0.0003  0.1974
+     54            1.0000        [32m0.0459[0m  0.0003  0.2013
+     55            1.0000        0.0474  0.0003  0.1725
+     56            1.0000        [32m0.0431[0m  0.0003  0.1700
+     57            1.0000        [32m0.0416[0m  0.0002  0.1752
+     58            1.0000        [32m0.0408[0m  0.0002  0.1872
+     59            1.0000        0.0459  0.0002  0.1849
+     60            1.0000        0.0408  0.0002  0.1941
+     61            1.0000        [32m0.0364[0m  0.0002  0.1756
+     62            1.0000        0.0372  0.0002  0.1816
+     63            1.0000        0.0384  0.0002  0.1763
+     64            1.0000        [32m0.0326[0m  0.0002  0.1772
+     65            1.0000        0.0344  0.0002  0.1902
+     66            1.0000        0.0344  0.0002  0.1697
+     67            1.0000        0.0340  0.0002  0.1699
+     68            1.0000        0.0334  0.0001  0.1816
+     69            1.0000        [32m0.0303[0m  0.0001  0.1815
+     70            1.0000        0.0307  0.0001  0.1876
+     71            1.0000        [32m0.0285[0m  0.0001  0.1765
+     72            1.0000        0.0311  0.0001  0.1698
+     73            1.0000        0.0298  0.0001  0.1757
+     74            1.0000        0.0300  0.0001  0.1766
+     75            1.0000        0.0300  0.0001  0.1802
+     76            1.0000        0.0290  0.0001  0.1880
+     77            1.0000        0.0300  0.0001  0.1753
+     78            1.0000        0.0303  0.0001  0.1936
+     79            1.0000        [32m0.0276[0m  0.0001  0.1548
+     80            1.0000        [32m0.0265[0m  0.0001  0.1797
+     81            1.0000        0.0274  0.0001  0.1642
+     82            1.0000        0.0280  0.0000  0.1819
+     83            1.0000        0.0276  0.0000  0.1943
+     84            1.0000        0.0292  0.0000  0.1962
+     85            1.0000        0.0283  0.0000  0.1757
+     86            1.0000        0.0275  0.0000  0.1950
+     87            1.0000        0.0266  0.0000  0.1938
+     88            1.0000        0.0289  0.0000  0.1852
+     89            1.0000        0.0276  0.0000  0.1944
+     90            1.0000        0.0277  0.0000  0.1751
+     91            1.0000        [32m0.0254[0m  0.0000  0.1689
+     92            1.0000        0.0260  0.0000  0.1999
+     93            1.0000        0.0267  0.0000  0.1929
+     94            1.0000        0.0274  0.0000  0.2125
+     95            1.0000        0.0280  0.0000  0.1950
+     96            1.0000        0.0285  0.0000  0.2179
+     97            1.0000        0.0272  0.0000  0.1697
+     98            1.0000        0.0255  0.0000  0.1793
+     99            1.0000        0.0261  0.0000  0.1780
+    100            1.0000        0.0258  0.0000  0.1670
+Subject 6: test acc = 49.65% (epoch 100/100)
+
+=== Subject 7 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+---------------------
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+
+
+FIR filter parameters
+Setting up band-pass filter from 4 - 38 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+FIR filter parameters
+FIR filter parameters
+---------------------
+
+- Lower passband edge: 4.00
+FIR filter parameters
+- Windowed time-domain design (firwin) method
+FIR filter parameters
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+---------------------
+- Upper passband edge: 38.00 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Filter length: 413 samples (1.652 s)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+
+
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.3542[0m        [32m1.2958[0m  0.0006  0.2284
+      2            [36m0.3958[0m        [32m1.1044[0m  0.0006  0.1703
+      3            0.3021        [32m0.9737[0m  0.0006  0.1682
+      4            [36m0.4236[0m        [32m0.8373[0m  0.0006  0.1788
+      5            [36m0.4271[0m        [32m0.7211[0m  0.0006  0.2045
+      6            [36m0.8194[0m        [32m0.6268[0m  0.0006  0.1911
+      7            [36m0.8438[0m        [32m0.5362[0m  0.0006  0.1923
+      8            [36m0.8472[0m        [32m0.4563[0m  0.0006  0.2065
+      9            [36m0.9201[0m        [32m0.3698[0m  0.0006  0.1928
+     10            [36m0.9618[0m        [32m0.3133[0m  0.0006  0.1760
+     11            [36m0.9722[0m        [32m0.2634[0m  0.0006  0.1894
+     12            0.9514        [32m0.2226[0m  0.0006  0.1948
+     13            [36m0.9896[0m        [32m0.1914[0m  0.0006  0.1740
+     14            0.9792        [32m0.1618[0m  0.0006  0.1827
+     15            [36m1.0000[0m        [32m0.1429[0m  0.0006  0.1779
+     16            1.0000        [32m0.1183[0m  0.0006  0.1778
+     17            1.0000        [32m0.1013[0m  0.0006  0.1777
+     18            0.9965        [32m0.0870[0m  0.0006  0.1876
+     19            1.0000        [32m0.0809[0m  0.0006  0.1900
+     20            1.0000        [32m0.0678[0m  0.0006  0.1716
+     21            1.0000        [32m0.0587[0m  0.0006  0.1882
+     22            1.0000        [32m0.0550[0m  0.0006  0.1797
+     23            1.0000        [32m0.0449[0m  0.0006  0.1989
+     24            1.0000        [32m0.0417[0m  0.0005  0.1808
+     25            1.0000        [32m0.0369[0m  0.0005  0.1804
+     26            1.0000        0.0393  0.0005  0.2060
+     27            1.0000        [32m0.0340[0m  0.0005  0.1830
+     28            1.0000        [32m0.0274[0m  0.0005  0.1890
+     29            1.0000        [32m0.0261[0m  0.0005  0.1633
+     30            1.0000        0.0265  0.0005  0.1808
+     31            1.0000        [32m0.0237[0m  0.0005  0.1759
+     32            1.0000        0.0262  0.0005  0.1981
+     33            1.0000        [32m0.0200[0m  0.0005  0.1936
+     34            1.0000        [32m0.0187[0m  0.0005  0.1778
+     35            1.0000        [32m0.0162[0m  0.0005  0.1935
+     36            1.0000        0.0180  0.0005  0.1827
+     37            1.0000        0.0171  0.0004  0.1714
+     38            1.0000        [32m0.0148[0m  0.0004  0.1697
+     39            1.0000        [32m0.0138[0m  0.0004  0.1909
+     40            1.0000        0.0139  0.0004  0.2188
+     41            1.0000        [32m0.0129[0m  0.0004  0.1692
+     42            1.0000        [32m0.0125[0m  0.0004  0.1760
+     43            1.0000        [32m0.0122[0m  0.0004  0.1727
+     44            1.0000        0.0125  0.0004  0.1724
+     45            1.0000        0.0124  0.0004  0.1822
+     46            1.0000        [32m0.0103[0m  0.0004  0.2081
+     47            1.0000        [32m0.0103[0m  0.0003  0.1940
+     48            1.0000        0.0109  0.0003  0.1761
+     49            1.0000        0.0115  0.0003  0.1713
+     50            1.0000        [32m0.0092[0m  0.0003  0.1821
+     51            1.0000        0.0094  0.0003  0.1690
+     52            1.0000        [32m0.0078[0m  0.0003  0.1814
+     53            1.0000        0.0084  0.0003  0.1893
+     54            1.0000        0.0079  0.0003  0.1903
+     55            1.0000        [32m0.0075[0m  0.0003  0.1936
+     56            1.0000        0.0078  0.0003  0.2002
+     57            1.0000        0.0075  0.0002  0.1739
+     58            1.0000        [32m0.0072[0m  0.0002  0.1696
+     59            1.0000        [32m0.0067[0m  0.0002  0.1827
+     60            1.0000        0.0074  0.0002  0.1962
+     61            1.0000        [32m0.0064[0m  0.0002  0.1882
+     62            1.0000        [32m0.0064[0m  0.0002  0.1826
+     63            1.0000        0.0067  0.0002  0.1713
+     64            1.0000        0.0068  0.0002  0.1740
+     65            1.0000        [32m0.0062[0m  0.0002  0.1811
+     66            1.0000        [32m0.0058[0m  0.0002  0.1955
+     67            1.0000        0.0064  0.0002  0.1866
+     68            1.0000        0.0064  0.0001  0.2060
+     69            1.0000        0.0063  0.0001  0.1631
+     70            1.0000        0.0059  0.0001  0.1863
+     71            1.0000        [32m0.0058[0m  0.0001  0.1982
+     72            1.0000        [32m0.0054[0m  0.0001  0.1897
+     73            1.0000        0.0060  0.0001  0.1984
+     74            1.0000        0.0061  0.0001  0.1870
+     75            1.0000        0.0056  0.0001  0.1630
+     76            1.0000        [32m0.0050[0m  0.0001  0.1753
+     77            1.0000        0.0062  0.0001  0.1818
+     78            1.0000        0.0056  0.0001  0.1804
+     79            1.0000        0.0056  0.0001  0.2423
+     80            1.0000        0.0055  0.0001  0.1768
+     81            1.0000        [32m0.0048[0m  0.0001  0.2033
+     82            1.0000        0.0062  0.0000  0.1939
+     83            1.0000        0.0055  0.0000  0.1835
+     84            1.0000        0.0059  0.0000  0.1787
+     85            1.0000        0.0057  0.0000  0.1756
+     86            1.0000        0.0051  0.0000  0.1873
+     87            1.0000        0.0060  0.0000  0.1792
+     88            1.0000        0.0054  0.0000  0.1834
+     89            1.0000        0.0056  0.0000  0.1793
+     90            1.0000        0.0056  0.0000  0.1761
+     91            1.0000        0.0051  0.0000  0.1750
+     92            1.0000        0.0055  0.0000  0.1948
+     93            1.0000        0.0053  0.0000  0.2040
+     94            1.0000        0.0051  0.0000  0.1740
+     95            1.0000        0.0051  0.0000  0.1777
+     96            1.0000        0.0059  0.0000  0.1818
+     97            1.0000        0.0055  0.0000  0.1878
+     98            1.0000        0.0057  0.0000  0.2072
+     99            1.0000        [32m0.0048[0m  0.0000  0.2028
+    100            1.0000        0.0054  0.0000  0.1934
+Subject 7: test acc = 87.50% (epoch 100/100)
+
+=== Subject 8 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+---------------------
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+FIR filter parameters
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+FIR filter parameters
+
+FIR filter parameters
+
+
+
+- Windowed time-domain design (firwin) method
+FIR filter parameters
+---------------------
+FIR filter parameters
+- Windowed time-domain design (firwin) method
+
+---------------------
+
+---------------------
+FIR filter parameters
+FIR filter parameters
+FIR filter parameters
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+FIR filter parameters
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+---------------------
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+---------------------
+- Windowed time-domain design (firwin) method
+---------------------
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Windowed time-domain design (firwin) method
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Filter length: 413 samples (1.652 s)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Lower passband edge: 4.00
+- Upper passband edge: 38.00 Hz
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+
+
+
+
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.1976[0m  0.0006  0.2791
+      2            [36m0.5035[0m        [32m0.9194[0m  0.0006  0.1672
+      3            [36m0.6146[0m        [32m0.7667[0m  0.0006  0.1670
+      4            [36m0.7882[0m        [32m0.6632[0m  0.0006  0.1699
+      5            [36m0.8542[0m        [32m0.5634[0m  0.0006  0.1859
+      6            [36m0.8646[0m        [32m0.4802[0m  0.0006  0.2145
+      7            0.8090        [32m0.4184[0m  0.0006  0.2175
+      8            [36m0.8819[0m        [32m0.3735[0m  0.0006  0.2002
+      9            [36m0.9201[0m        [32m0.3074[0m  0.0006  0.1775
+     10            [36m0.9479[0m        [32m0.2928[0m  0.0006  0.1831
+     11            0.9479        [32m0.2689[0m  0.0006  0.1854
+     12            [36m0.9688[0m        [32m0.2268[0m  0.0006  0.1983
+     13            0.8611        [32m0.2080[0m  0.0006  0.1742
+     14            0.9375        [32m0.1981[0m  0.0006  0.1804
+     15            0.9201        [32m0.1833[0m  0.0006  0.1681
+     16            0.9410        0.1839  0.0006  0.2111
+     17            [36m0.9722[0m        [32m0.1636[0m  0.0006  0.2589
+     18            0.9097        [32m0.1546[0m  0.0006  0.2535
+     19            0.9410        [32m0.1470[0m  0.0006  0.1819
+     20            [36m0.9861[0m        [32m0.1343[0m  0.0006  0.1813
+     21            0.9479        [32m0.1340[0m  0.0006  0.1757
+     22            [36m0.9896[0m        [32m0.1154[0m  0.0006  0.1790
+     23            [36m0.9965[0m        [32m0.1073[0m  0.0006  0.2145
+     24            0.9861        [32m0.0864[0m  0.0005  0.1785
+     25            [36m1.0000[0m        [32m0.0763[0m  0.0005  0.1998
+     26            1.0000        [32m0.0657[0m  0.0005  0.1832
+     27            1.0000        [32m0.0582[0m  0.0005  0.1707
+     28            1.0000        [32m0.0522[0m  0.0005  0.1789
+     29            1.0000        [32m0.0488[0m  0.0005  0.2049
+     30            1.0000        [32m0.0458[0m  0.0005  0.1975
+     31            0.9931        0.0493  0.0005  0.2052
+     32            0.9861        0.0538  0.0005  0.1960
+     33            0.9792        0.0583  0.0005  0.1736
+     34            1.0000        0.0459  0.0005  0.1793
+     35            1.0000        [32m0.0387[0m  0.0005  0.2028
+     36            1.0000        [32m0.0360[0m  0.0005  0.1879
+     37            1.0000        0.0385  0.0004  0.1753
+     38            1.0000        [32m0.0343[0m  0.0004  0.1849
+     39            1.0000        [32m0.0277[0m  0.0004  0.1794
+     40            1.0000        0.0278  0.0004  0.1756
+     41            1.0000        [32m0.0267[0m  0.0004  0.2031
+     42            1.0000        0.0301  0.0004  0.1701
+     43            1.0000        0.0285  0.0004  0.1840
+     44            1.0000        [32m0.0254[0m  0.0004  0.1764
+     45            1.0000        [32m0.0227[0m  0.0004  0.1879
+     46            1.0000        [32m0.0202[0m  0.0004  0.1966
+     47            1.0000        [32m0.0197[0m  0.0003  0.1844
+     48            1.0000        0.0206  0.0003  0.1659
+     49            1.0000        0.0258  0.0003  0.1904
+     50            1.0000        0.0216  0.0003  0.1733
+     51            1.0000        0.0201  0.0003  0.1772
+     52            1.0000        [32m0.0185[0m  0.0003  0.1984
+     53            1.0000        [32m0.0160[0m  0.0003  0.1945
+     54            1.0000        0.0162  0.0003  0.2048
+     55            1.0000        [32m0.0150[0m  0.0003  0.1876
+     56            1.0000        0.0159  0.0003  0.1730
+     57            1.0000        0.0150  0.0002  0.1679
+     58            1.0000        [32m0.0134[0m  0.0002  0.1816
+     59            1.0000        0.0141  0.0002  0.1871
+     60            1.0000        0.0139  0.0002  0.2072
+     61            1.0000        0.0143  0.0002  0.2059
+     62            1.0000        0.0136  0.0002  0.1935
+     63            1.0000        [32m0.0129[0m  0.0002  0.1763
+     64            1.0000        0.0142  0.0002  0.1758
+     65            1.0000        0.0129  0.0002  0.1817
+     66            1.0000        [32m0.0116[0m  0.0002  0.1766
+     67            1.0000        0.0131  0.0002  0.1988
+     68            1.0000        0.0135  0.0001  0.1714
+     69            1.0000        [32m0.0112[0m  0.0001  0.1776
+     70            1.0000        0.0115  0.0001  0.1905
+     71            1.0000        [32m0.0107[0m  0.0001  0.1965
+     72            1.0000        [32m0.0102[0m  0.0001  0.2113
+     73            1.0000        0.0117  0.0001  0.1768
+     74            1.0000        0.0120  0.0001  0.1697
+     75            1.0000        0.0116  0.0001  0.1788
+     76            1.0000        0.0103  0.0001  0.2163
+     77            1.0000        0.0116  0.0001  0.1819
+     78            1.0000        0.0122  0.0001  0.2089
+     79            1.0000        0.0105  0.0001  0.1713
+     80            1.0000        [32m0.0099[0m  0.0001  0.1761
+     81            1.0000        0.0104  0.0001  0.2016
+     82            1.0000        0.0111  0.0000  0.2010
+     83            1.0000        [32m0.0098[0m  0.0000  0.1810
+     84            1.0000        0.0117  0.0000  0.1711
+     85            1.0000        0.0113  0.0000  0.2125
+     86            1.0000        0.0100  0.0000  0.1954
+     87            1.0000        0.0112  0.0000  0.1876
+     88            1.0000        0.0102  0.0000  0.1787
+     89            1.0000        [32m0.0096[0m  0.0000  0.1805
+     90            1.0000        [32m0.0090[0m  0.0000  0.1698
+     91            1.0000        0.0102  0.0000  0.1906
+     92            1.0000        0.0098  0.0000  0.1988
+     93            1.0000        0.0107  0.0000  0.2003
+     94            1.0000        0.0094  0.0000  0.2060
+     95            1.0000        0.0104  0.0000  0.1996
+     96            1.0000        0.0114  0.0000  0.1820
+     97            1.0000        0.0123  0.0000  0.1855
+     98            1.0000        0.0115  0.0000  0.1713
+     99            1.0000        0.0103  0.0000  0.1823
+    100            1.0000        0.0107  0.0000  0.2010
+Subject 8: test acc = 77.43% (epoch 100/100)
+
+=== Subject 9 | clean_seed2 ===
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+
+Setting up band-pass filter from 4 - 38 Hz
+FIR filter parameters
+
+Filtering raw data in 1 contiguous segment
+---------------------
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+FIR filter parameters
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Filtering raw data in 1 contiguous segment
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+---------------------
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+Setting up band-pass filter from 4 - 38 Hz
+- Windowed time-domain design (firwin) method
+Setting up band-pass filter from 4 - 38 Hz
+
+Setting up band-pass filter from 4 - 38 Hz
+
+
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+
+
+FIR filter parameters
+
+
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+
+FIR filter parameters
+
+FIR filter parameters
+FIR filter parameters
+- Windowed time-domain design (firwin) method
+FIR filter parameters
+FIR filter parameters
+---------------------
+FIR filter parameters
+FIR filter parameters
+- Lower passband edge: 4.00
+FIR filter parameters
+---------------------
+FIR filter parameters
+---------------------
+---------------------
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+---------------------
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+---------------------
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Lower passband edge: 4.00
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Upper passband edge: 38.00 Hz
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Windowed time-domain design (firwin) method
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Upper passband edge: 38.00 Hz
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Filter length: 413 samples (1.652 s)
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Lower passband edge: 4.00
+
+- Lower passband edge: 4.00
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Lower passband edge: 4.00
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper passband edge: 38.00 Hz
+- Upper passband edge: 38.00 Hz
+- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 3.00 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Upper passband edge: 38.00 Hz
+
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+- Filter length: 413 samples (1.652 s)
+- Filter length: 413 samples (1.652 s)
+- Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
+
+
+- Filter length: 413 samples (1.652 s)
+
+- Filter length: 413 samples (1.652 s)
+
+
+- Filter length: 413 samples (1.652 s)
+
+
+
+  epoch    train_accuracy    train_loss      lr     dur
+-------  ----------------  ------------  ------  ------
+      1            [36m0.2500[0m        [32m1.1715[0m  0.0006  0.2719
+      2            [36m0.2674[0m        [32m0.9310[0m  0.0006  0.1696
+      3            [36m0.4514[0m        [32m0.7773[0m  0.0006  0.2031
+      4            [36m0.6458[0m        [32m0.6568[0m  0.0006  0.1767
+      5            [36m0.7639[0m        [32m0.5610[0m  0.0006  0.1626
+      6            [36m0.8576[0m        [32m0.4833[0m  0.0006  0.2006
+      7            [36m0.8889[0m        [32m0.4103[0m  0.0006  0.1999
+      8            [36m0.8924[0m        [32m0.3700[0m  0.0006  0.1980
+      9            0.7986        [32m0.3385[0m  0.0006  0.1959
+     10            0.8542        [32m0.3085[0m  0.0006  0.1895
+     11            [36m0.9444[0m        [32m0.2641[0m  0.0006  0.1891
+     12            0.9375        [32m0.2486[0m  0.0006  0.1939
+     13            0.9375        [32m0.2159[0m  0.0006  0.1733
+     14            [36m0.9757[0m        [32m0.1993[0m  0.0006  0.1873
+     15            [36m0.9792[0m        [32m0.1872[0m  0.0006  0.1698
+     16            [36m0.9896[0m        [32m0.1524[0m  0.0006  0.1699
+     17            0.9896        [32m0.1368[0m  0.0006  0.1883
+     18            0.9410        [32m0.1332[0m  0.0006  0.1828
+     19            0.9861        [32m0.1293[0m  0.0006  0.1858
+     20            0.9826        [32m0.1218[0m  0.0006  0.1810
+     21            [36m0.9965[0m        [32m0.1007[0m  0.0006  0.1829
+     22            0.9896        [32m0.0918[0m  0.0006  0.1860
+     23            0.9896        [32m0.0877[0m  0.0006  0.1925
+     24            [36m1.0000[0m        [32m0.0749[0m  0.0005  0.1917
+     25            0.9861        0.0767  0.0005  0.1901
+     26            1.0000        [32m0.0739[0m  0.0005  0.1900
+     27            0.9965        [32m0.0703[0m  0.0005  0.1890
+     28            0.9792        0.0712  0.0005  0.1784
+     29            0.9931        0.0707  0.0005  0.1974
+     30            0.9965        [32m0.0615[0m  0.0005  0.1900
+     31            0.9896        [32m0.0611[0m  0.0005  0.1888
+     32            1.0000        [32m0.0507[0m  0.0005  0.1785
+     33            1.0000        [32m0.0423[0m  0.0005  0.1942
+     34            1.0000        0.0433  0.0005  0.1908
+     35            1.0000        [32m0.0381[0m  0.0005  0.1808
+     36            1.0000        0.0388  0.0005  0.1698
+     37            1.0000        [32m0.0363[0m  0.0004  0.1815
+     38            1.0000        [32m0.0317[0m  0.0004  0.1948
+     39            1.0000        [32m0.0305[0m  0.0004  0.2071
+     40            1.0000        [32m0.0300[0m  0.0004  0.1805
+     41            1.0000        [32m0.0278[0m  0.0004  0.1903
+     42            1.0000        0.0279  0.0004  0.1886
+     43            1.0000        [32m0.0266[0m  0.0004  0.1743
+     44            1.0000        [32m0.0253[0m  0.0004  0.1898
+     45            1.0000        [32m0.0247[0m  0.0004  0.1794
+     46            1.0000        [32m0.0229[0m  0.0004  0.1941
+     47            1.0000        0.0236  0.0003  0.2085
+     48            1.0000        [32m0.0209[0m  0.0003  0.1839
+     49            1.0000        [32m0.0202[0m  0.0003  0.1943
+     50            1.0000        0.0228  0.0003  0.1722
+     51            1.0000        0.0237  0.0003  0.1740
+     52            1.0000        [32m0.0193[0m  0.0003  0.1761
+     53            1.0000        [32m0.0187[0m  0.0003  0.1884
+     54            1.0000        [32m0.0172[0m  0.0003  0.1757
+     55            1.0000        [32m0.0170[0m  0.0003  0.1806
+     56            1.0000        [32m0.0163[0m  0.0003  0.2054
+     57            1.0000        0.0177  0.0002  0.1878
+     58            1.0000        [32m0.0159[0m  0.0002  0.1873
+     59            1.0000        0.0172  0.0002  0.2198
+     60            1.0000        [32m0.0143[0m  0.0002  0.3343
+     61            1.0000        0.0149  0.0002  0.3219
+     62            1.0000        [32m0.0136[0m  0.0002  0.3033
+     63            1.0000        0.0157  0.0002  0.2467
+     64            1.0000        0.0141  0.0002  0.2441
+     65            1.0000        0.0149  0.0002  0.2302
+     66            1.0000        0.0138  0.0002  0.2494
+     67            1.0000        0.0143  0.0002  0.2606
+     68            1.0000        [32m0.0130[0m  0.0001  0.2728
+     69            1.0000        0.0133  0.0001  0.2282
+     70            1.0000        0.0133  0.0001  0.2421
+     71            1.0000        [32m0.0122[0m  0.0001  0.3081
+     72            1.0000        [32m0.0120[0m  0.0001  0.3577
+     73            1.0000        [32m0.0112[0m  0.0001  0.2851
+     74            1.0000        0.0130  0.0001  0.3600
+     75            1.0000        0.0132  0.0001  0.2998
+     76            1.0000        0.0127  0.0001  0.3580
+     77            1.0000        0.0121  0.0001  0.3136
+     78            1.0000        0.0118  0.0001  0.3342
+     79            1.0000        0.0117  0.0001  0.3550
+     80            1.0000        0.0116  0.0001  0.3759
+     81            1.0000        0.0125  0.0001  0.2912
+     82            1.0000        [32m0.0111[0m  0.0000  0.3935
+     83            1.0000        0.0118  0.0000  0.3497
+     84            1.0000        0.0111  0.0000  0.3251
+     85            1.0000        [32m0.0106[0m  0.0000  0.4360
+     86            1.0000        0.0113  0.0000  0.3448
+     87            1.0000        0.0117  0.0000  0.3860
+     88            1.0000        0.0116  0.0000  0.3778
+     89            1.0000        0.0106  0.0000  0.3422
+     90            1.0000        [32m0.0105[0m  0.0000  0.3888
+     91            1.0000        0.0118  0.0000  0.3086
+     92            1.0000        0.0111  0.0000  0.3122
+     93            1.0000        0.0112  0.0000  0.3638
+     94            1.0000        0.0113  0.0000  0.3214
+     95            1.0000        0.0115  0.0000  0.3492
+     96            1.0000        0.0119  0.0000  0.3289
+     97            1.0000        [32m0.0103[0m  0.0000  0.4052
+     98            1.0000        [32m0.0101[0m  0.0000  0.3306
+     99            1.0000        0.0111  0.0000  0.4177
+    100            1.0000        0.0111  0.0000  0.3877
+Subject 9: test acc = 79.86% (epoch 100/100)
