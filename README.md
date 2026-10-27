@@ -31,10 +31,11 @@ or no calibration data.
 
 ## Setup
 
-**Colab / Kaggle:** open `notebooks/01_reproduce.ipynb`, select a GPU runtime and run all cells.
-The notebook keeps the pre-installed PyTorch and installs only `braindecode` and `moabb`.
-The dataset (BNCI2014_001, ~80 MB per subject) is downloaded automatically by MOABB and
-cached on Google Drive.
+**Colab / Kaggle:** open `notebooks/01_reproduce.ipynb`. By default it only loads the stored
+results from `results/` and shows the tables and confusion matrices (no training). Set
+`RERUN = True` to retrain everything on a GPU runtime; the notebook then keeps the pre-installed
+PyTorch, installs only `braindecode` and `moabb`, and caches the dataset (BNCI2014_001,
+~80 MB per subject, downloaded by MOABB) and new results on Google Drive.
 
 **Local:**
 
