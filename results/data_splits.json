@@ -1,0 +1,527 @@
+{
+ "band_hz": [
+  4.0,
+  38.0
+ ],
+ "window_samples": 1000,
+ "split": {
+  "train": "session 0train, runs 0-4",
+  "valid": "session 0train, run 5",
+  "test": "session 1test, runs 0-5"
+ },
+ "subjects": {
+  "1": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "2": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "3": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "4": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "5": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "6": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "7": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "8": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  },
+  "9": {
+   "train": {
+    "n_trials": 240,
+    "n_windows": 480,
+    "X_shape": [
+     480,
+     22,
+     1000
+    ],
+    "y_shape": [
+     480
+    ],
+    "trials_per_class": {
+     "feet": 60,
+     "left_hand": 60,
+     "right_hand": 60,
+     "tongue": 60
+    }
+   },
+   "valid": {
+    "n_trials": 48,
+    "n_windows": 96,
+    "X_shape": [
+     96,
+     22,
+     1000
+    ],
+    "y_shape": [
+     96
+    ],
+    "trials_per_class": {
+     "feet": 12,
+     "left_hand": 12,
+     "right_hand": 12,
+     "tongue": 12
+    }
+   },
+   "test": {
+    "n_trials": 288,
+    "n_windows": 576,
+    "X_shape": [
+     576,
+     22,
+     1000
+    ],
+    "y_shape": [
+     576
+    ],
+    "trials_per_class": {
+     "feet": 72,
+     "left_hand": 72,
+     "right_hand": 72,
+     "tongue": 72
+    }
+   },
+   "crops_per_window": 467
+  }
+ }
+}
