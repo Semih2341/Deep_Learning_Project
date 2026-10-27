@@ -1,31 +1,7 @@
 
 === Subject 1 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 
@@ -71,10 +47,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 
@@ -103,10 +75,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -317,38 +285,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 1: test acc = 80.56% (epoch 100/100)
 
 === Subject 2 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -634,38 +570,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 2: test acc = 43.06% (epoch 100/100)
 
 === Subject 3 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -951,38 +855,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 3: test acc = 84.38% (epoch 100/100)
 
 === Subject 4 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -1268,38 +1140,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 4: test acc = 66.67% (epoch 100/100)
 
 === Subject 5 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -1585,38 +1425,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 5: test acc = 59.72% (epoch 100/100)
 
 === Subject 6 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -1902,38 +1710,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 6: test acc = 54.17% (epoch 100/100)
 
 === Subject 7 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -2219,26 +1995,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 7: test acc = 86.46% (epoch 100/100)
 
 === Subject 8 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
@@ -2286,16 +2042,10 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 
 FIR filter parameters
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
 ---------------------
 Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Windowed time-domain design (firwin) method
@@ -2306,12 +2056,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 
@@ -2536,33 +2280,9 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 Subject 8: test acc = 76.04% (epoch 100/100)
 
 === Subject 9 | mode=clean | seed=20200220 ===
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -2620,15 +2340,7 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 

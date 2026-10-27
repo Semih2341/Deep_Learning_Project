@@ -21,7 +21,6 @@ Usage:
 
 import argparse
 import json
-import os
 import platform
 import time
 from pathlib import Path

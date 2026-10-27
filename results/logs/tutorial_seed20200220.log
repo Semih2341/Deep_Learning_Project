@@ -3,34 +3,28 @@
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/82.6M [00:00<?, ?B/s]S3:   1%|          | 1.00M/82.6M [00:01<01:46, 807kB/s]S3:   4%|▎         | 3.00M/82.6M [00:01<00:31, 2.67MB/s]S3:   6%|▌         | 5.00M/82.6M [00:01<00:17, 4.60MB/s]S3:  11%|█         | 9.00M/82.6M [00:01<00:08, 9.26MB/s]S3:  21%|██        | 17.0M/82.6M [00:01<00:03, 18.7MB/s]S3:  30%|███       | 25.0M/82.6M [00:02<00:02, 26.6MB/s]S3:  40%|███▉      | 33.0M/82.6M [00:02<00:01, 32.7MB/s]S3:  47%|████▋     | 39.0M/82.6M [00:02<00:01, 37.6MB/s]S3:  53%|█████▎    | 44.0M/82.6M [00:02<00:01, 32.2MB/s]S3:  62%|██████▏   | 51.0M/82.6M [00:02<00:00, 36.9MB/s]S3:  71%|███████▏  | 59.0M/82.6M [00:02<00:00, 41.7MB/s]S3:  78%|███████▊  | 64.0M/82.6M [00:02<00:00, 43.0MB/s]S3:  84%|████████▎ | 69.0M/82.6M [00:03<00:00, 39.0MB/s]S3:  88%|████████▊ | 73.0M/82.6M [00:03<00:00, 38.5MB/s]S3:  94%|█████████▍| 77.7M/82.6M [00:03<00:00, 35.8MB/s]S3:  99%|█████████▉| 81.7M/82.6M [00:03<00:00, 26.1MB/s]S3: 100%|██████████| 82.6M/82.6M [00:03<00:00, 23.1MB/s]
+
+S3:   0%|          | 0.00/82.6M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/82.6M [00:01<01:46, 807kB/s]
+S3:   4%|▎         | 3.00M/82.6M [00:01<00:31, 2.67MB/s]
+S3:   6%|▌         | 5.00M/82.6M [00:01<00:17, 4.60MB/s]
+S3:  11%|█         | 9.00M/82.6M [00:01<00:08, 9.26MB/s]
+S3:  21%|██        | 17.0M/82.6M [00:01<00:03, 18.7MB/s]
+S3:  30%|███       | 25.0M/82.6M [00:02<00:02, 26.6MB/s]
+S3:  40%|███▉      | 33.0M/82.6M [00:02<00:01, 32.7MB/s]
+S3:  47%|████▋     | 39.0M/82.6M [00:02<00:01, 37.6MB/s]
+S3:  53%|█████▎    | 44.0M/82.6M [00:02<00:01, 32.2MB/s]
+S3:  62%|██████▏   | 51.0M/82.6M [00:02<00:00, 36.9MB/s]
+S3:  71%|███████▏  | 59.0M/82.6M [00:02<00:00, 41.7MB/s]
+S3:  78%|███████▊  | 64.0M/82.6M [00:02<00:00, 43.0MB/s]
+S3:  84%|████████▎ | 69.0M/82.6M [00:03<00:00, 39.0MB/s]
+S3:  88%|████████▊ | 73.0M/82.6M [00:03<00:00, 38.5MB/s]
+S3:  94%|█████████▍| 77.7M/82.6M [00:03<00:00, 35.8MB/s]
+S3:  99%|█████████▉| 81.7M/82.6M [00:03<00:00, 26.1MB/s]
+S3: 100%|██████████| 82.6M/82.6M [00:03<00:00, 23.1MB/s]
 Finished downloading nm000139 v1.0.3.
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
 
@@ -46,8 +40,6 @@ Filtering raw data in 1 contiguous segment
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 Setting up band-pass filter from 4 - 38 Hz
 - Filter length: 413 samples (1.652 s)
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
 
 
 FIR filter parameters
@@ -61,8 +53,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -78,10 +68,6 @@ Designing a one-pass, zero-phase, non-causal bandpass filter:
 - Upper transition bandwidth: 9.50 Hz (-6 dB cutoff frequency: 42.75 Hz)
 - Filter length: 413 samples (1.652 s)
 
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
@@ -278,40 +264,26 @@ Subject 1: test acc = 81.94% (epoch 42/52)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/83.2M [00:00<?, ?B/s]S3:   1%|          | 1.00M/83.2M [00:01<01:41, 848kB/s]S3:   4%|▎         | 3.00M/83.2M [00:01<00:29, 2.81MB/s]S3:   8%|▊         | 7.00M/83.2M [00:01<00:11, 7.24MB/s]S3:  16%|█▌        | 13.0M/83.2M [00:01<00:05, 14.5MB/s]S3:  23%|██▎       | 19.0M/83.2M [00:01<00:03, 22.2MB/s]S3:  30%|███       | 25.0M/83.2M [00:01<00:02, 27.9MB/s]S3:  37%|███▋      | 31.0M/83.2M [00:02<00:01, 34.6MB/s]S3:  44%|████▍     | 37.0M/83.2M [00:02<00:01, 38.8MB/s]S3:  50%|█████     | 42.0M/83.2M [00:02<00:01, 39.0MB/s]S3:  56%|█████▋    | 47.0M/83.2M [00:02<00:00, 41.6MB/s]S3:  65%|██████▍   | 54.0M/83.2M [00:02<00:00, 44.2MB/s]S3:  73%|███████▎  | 61.0M/83.2M [00:02<00:00, 50.5MB/s]S3:  80%|████████  | 67.0M/83.2M [00:02<00:00, 48.3MB/s]S3:  86%|████████▋ | 72.0M/83.2M [00:02<00:00, 46.7MB/s]S3:  94%|█████████▎| 78.0M/83.2M [00:03<00:00, 48.6MB/s]S3: 100%|█████████▉| 83.2M/83.2M [00:03<00:00, 47.1MB/s]S3: 100%|██████████| 83.2M/83.2M [00:03<00:00, 27.8MB/s]
+
+S3:   0%|          | 0.00/83.2M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/83.2M [00:01<01:41, 848kB/s]
+S3:   4%|▎         | 3.00M/83.2M [00:01<00:29, 2.81MB/s]
+S3:   8%|▊         | 7.00M/83.2M [00:01<00:11, 7.24MB/s]
+S3:  16%|█▌        | 13.0M/83.2M [00:01<00:05, 14.5MB/s]
+S3:  23%|██▎       | 19.0M/83.2M [00:01<00:03, 22.2MB/s]
+S3:  30%|███       | 25.0M/83.2M [00:01<00:02, 27.9MB/s]
+S3:  37%|███▋      | 31.0M/83.2M [00:02<00:01, 34.6MB/s]
+S3:  44%|████▍     | 37.0M/83.2M [00:02<00:01, 38.8MB/s]
+S3:  50%|█████     | 42.0M/83.2M [00:02<00:01, 39.0MB/s]
+S3:  56%|█████▋    | 47.0M/83.2M [00:02<00:00, 41.6MB/s]
+S3:  65%|██████▍   | 54.0M/83.2M [00:02<00:00, 44.2MB/s]
+S3:  73%|███████▎  | 61.0M/83.2M [00:02<00:00, 50.5MB/s]
+S3:  80%|████████  | 67.0M/83.2M [00:02<00:00, 48.3MB/s]
+S3:  86%|████████▋ | 72.0M/83.2M [00:02<00:00, 46.7MB/s]
+S3:  94%|█████████▎| 78.0M/83.2M [00:03<00:00, 48.6MB/s]
+S3: 100%|█████████▉| 83.2M/83.2M [00:03<00:00, 47.1MB/s]
+S3: 100%|██████████| 83.2M/83.2M [00:03<00:00, 27.8MB/s]
 Finished downloading nm000139 v1.0.3.
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -732,7 +704,23 @@ Subject 3: test acc = 81.60% (epoch 14/24)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/75.2M [00:00<?, ?B/s]S3:   1%|▏         | 1.00M/75.2M [00:01<01:27, 891kB/s]S3:   4%|▍         | 3.00M/75.2M [00:01<00:25, 2.95MB/s]S3:   9%|▉         | 7.00M/75.2M [00:01<00:09, 7.61MB/s]S3:  15%|█▍        | 11.0M/75.2M [00:01<00:05, 12.6MB/s]S3:  23%|██▎       | 17.0M/75.2M [00:01<00:03, 20.2MB/s]S3:  33%|███▎      | 25.0M/75.2M [00:01<00:01, 29.4MB/s]S3:  43%|████▎     | 32.0M/75.2M [00:01<00:01, 37.7MB/s]S3:  49%|████▉     | 37.0M/75.2M [00:02<00:01, 39.3MB/s]S3:  56%|█████▌    | 42.0M/75.2M [00:02<00:00, 40.8MB/s]S3:  62%|██████▏   | 47.0M/75.2M [00:02<00:00, 41.5MB/s]S3:  72%|███████▏  | 54.0M/75.2M [00:02<00:00, 49.3MB/s]S3:  80%|███████▉  | 60.0M/75.2M [00:02<00:00, 50.1MB/s]S3:  88%|████████▊ | 66.0M/75.2M [00:02<00:00, 48.3MB/s]S3:  94%|█████████▍| 71.0M/75.2M [00:02<00:00, 48.5MB/s]S3: 100%|██████████| 75.2M/75.2M [00:02<00:00, 27.6MB/s]
+
+S3:   0%|          | 0.00/75.2M [00:00<?, ?B/s]
+S3:   1%|▏         | 1.00M/75.2M [00:01<01:27, 891kB/s]
+S3:   4%|▍         | 3.00M/75.2M [00:01<00:25, 2.95MB/s]
+S3:   9%|▉         | 7.00M/75.2M [00:01<00:09, 7.61MB/s]
+S3:  15%|█▍        | 11.0M/75.2M [00:01<00:05, 12.6MB/s]
+S3:  23%|██▎       | 17.0M/75.2M [00:01<00:03, 20.2MB/s]
+S3:  33%|███▎      | 25.0M/75.2M [00:01<00:01, 29.4MB/s]
+S3:  43%|████▎     | 32.0M/75.2M [00:01<00:01, 37.7MB/s]
+S3:  49%|████▉     | 37.0M/75.2M [00:02<00:01, 39.3MB/s]
+S3:  56%|█████▌    | 42.0M/75.2M [00:02<00:00, 40.8MB/s]
+S3:  62%|██████▏   | 47.0M/75.2M [00:02<00:00, 41.5MB/s]
+S3:  72%|███████▏  | 54.0M/75.2M [00:02<00:00, 49.3MB/s]
+S3:  80%|███████▉  | 60.0M/75.2M [00:02<00:00, 50.1MB/s]
+S3:  88%|████████▊ | 66.0M/75.2M [00:02<00:00, 48.3MB/s]
+S3:  94%|█████████▍| 71.0M/75.2M [00:02<00:00, 48.5MB/s]
+S3: 100%|██████████| 75.2M/75.2M [00:02<00:00, 27.6MB/s]
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -946,7 +934,24 @@ Subject 4: test acc = 63.54% (epoch 13/23)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/82.8M [00:00<?, ?B/s]S3:   1%|          | 1.00M/82.8M [00:04<05:51, 244kB/s]S3:   4%|▎         | 3.00M/82.8M [00:04<01:33, 899kB/s]S3:   6%|▌         | 5.00M/82.8M [00:04<00:46, 1.74MB/s]S3:  12%|█▏        | 10.0M/82.8M [00:04<00:16, 4.55MB/s]S3:  21%|██        | 17.0M/82.8M [00:04<00:07, 9.27MB/s]S3:  25%|██▌       | 21.0M/82.8M [00:05<00:05, 11.8MB/s]S3:  35%|███▌      | 29.0M/82.8M [00:05<00:02, 18.8MB/s]S3:  43%|████▎     | 36.0M/82.8M [00:05<00:01, 24.8MB/s]S3:  52%|█████▏    | 43.0M/82.8M [00:05<00:01, 30.1MB/s]S3:  60%|██████    | 50.0M/82.8M [00:05<00:00, 35.0MB/s]S3:  69%|██████▉   | 57.0M/82.8M [00:05<00:00, 40.3MB/s]S3:  76%|███████▌  | 63.0M/82.8M [00:05<00:00, 44.7MB/s]S3:  83%|████████▎ | 69.0M/82.8M [00:05<00:00, 44.4MB/s]S3:  89%|████████▉ | 74.0M/82.8M [00:06<00:00, 46.2MB/s]S3:  96%|█████████▌| 79.5M/82.8M [00:06<00:00, 45.6MB/s]S3: 100%|██████████| 82.8M/82.8M [00:06<00:00, 13.6MB/s]
+
+S3:   0%|          | 0.00/82.8M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/82.8M [00:04<05:51, 244kB/s]
+S3:   4%|▎         | 3.00M/82.8M [00:04<01:33, 899kB/s]
+S3:   6%|▌         | 5.00M/82.8M [00:04<00:46, 1.74MB/s]
+S3:  12%|█▏        | 10.0M/82.8M [00:04<00:16, 4.55MB/s]
+S3:  21%|██        | 17.0M/82.8M [00:04<00:07, 9.27MB/s]
+S3:  25%|██▌       | 21.0M/82.8M [00:05<00:05, 11.8MB/s]
+S3:  35%|███▌      | 29.0M/82.8M [00:05<00:02, 18.8MB/s]
+S3:  43%|████▎     | 36.0M/82.8M [00:05<00:01, 24.8MB/s]
+S3:  52%|█████▏    | 43.0M/82.8M [00:05<00:01, 30.1MB/s]
+S3:  60%|██████    | 50.0M/82.8M [00:05<00:00, 35.0MB/s]
+S3:  69%|██████▉   | 57.0M/82.8M [00:05<00:00, 40.3MB/s]
+S3:  76%|███████▌  | 63.0M/82.8M [00:05<00:00, 44.7MB/s]
+S3:  83%|████████▎ | 69.0M/82.8M [00:05<00:00, 44.4MB/s]
+S3:  89%|████████▉ | 74.0M/82.8M [00:06<00:00, 46.2MB/s]
+S3:  96%|█████████▌| 79.5M/82.8M [00:06<00:00, 45.6MB/s]
+S3: 100%|██████████| 82.8M/82.8M [00:06<00:00, 13.6MB/s]
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -1165,7 +1170,24 @@ Subject 5: test acc = 49.31% (epoch 18/28)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/83.9M [00:00<?, ?B/s]S3:   1%|          | 1.00M/83.9M [00:01<01:37, 893kB/s]S3:   4%|▎         | 3.00M/83.9M [00:01<00:28, 2.97MB/s]S3:   7%|▋         | 6.00M/83.9M [00:01<00:12, 6.38MB/s]S3:  14%|█▍        | 12.0M/83.9M [00:01<00:05, 14.0MB/s]S3:  24%|██▍       | 20.0M/83.9M [00:01<00:02, 23.8MB/s]S3:  33%|███▎      | 28.0M/83.9M [00:01<00:01, 32.2MB/s]S3:  42%|████▏     | 35.0M/83.9M [00:01<00:01, 39.6MB/s]S3:  48%|████▊     | 40.0M/83.9M [00:02<00:01, 39.6MB/s]S3:  55%|█████▍    | 46.0M/83.9M [00:02<00:00, 43.6MB/s]S3:  61%|██████    | 51.0M/83.9M [00:02<00:00, 45.6MB/s]S3:  67%|██████▋   | 56.0M/83.9M [00:02<00:00, 46.8MB/s]S3:  75%|███████▌  | 63.0M/83.9M [00:02<00:00, 48.5MB/s]S3:  83%|████████▎ | 70.0M/83.9M [00:02<00:00, 54.5MB/s]S3:  91%|█████████ | 76.0M/83.9M [00:02<00:00, 51.1MB/s]S3:  97%|█████████▋| 81.4M/83.9M [00:02<00:00, 50.4MB/s]S3: 100%|██████████| 83.9M/83.9M [00:03<00:00, 29.0MB/s]
+
+S3:   0%|          | 0.00/83.9M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/83.9M [00:01<01:37, 893kB/s]
+S3:   4%|▎         | 3.00M/83.9M [00:01<00:28, 2.97MB/s]
+S3:   7%|▋         | 6.00M/83.9M [00:01<00:12, 6.38MB/s]
+S3:  14%|█▍        | 12.0M/83.9M [00:01<00:05, 14.0MB/s]
+S3:  24%|██▍       | 20.0M/83.9M [00:01<00:02, 23.8MB/s]
+S3:  33%|███▎      | 28.0M/83.9M [00:01<00:01, 32.2MB/s]
+S3:  42%|████▏     | 35.0M/83.9M [00:01<00:01, 39.6MB/s]
+S3:  48%|████▊     | 40.0M/83.9M [00:02<00:01, 39.6MB/s]
+S3:  55%|█████▍    | 46.0M/83.9M [00:02<00:00, 43.6MB/s]
+S3:  61%|██████    | 51.0M/83.9M [00:02<00:00, 45.6MB/s]
+S3:  67%|██████▋   | 56.0M/83.9M [00:02<00:00, 46.8MB/s]
+S3:  75%|███████▌  | 63.0M/83.9M [00:02<00:00, 48.5MB/s]
+S3:  83%|████████▎ | 70.0M/83.9M [00:02<00:00, 54.5MB/s]
+S3:  91%|█████████ | 76.0M/83.9M [00:02<00:00, 51.1MB/s]
+S3:  97%|█████████▋| 81.4M/83.9M [00:02<00:00, 50.4MB/s]
+S3: 100%|██████████| 83.9M/83.9M [00:03<00:00, 29.0MB/s]
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -1377,7 +1399,23 @@ Subject 6: test acc = 49.65% (epoch 11/21)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/81.1M [00:00<?, ?B/s]S3:   1%|          | 1.00M/81.1M [00:04<05:37, 249kB/s]S3:   4%|▎         | 3.00M/81.1M [00:04<01:29, 919kB/s]S3:   9%|▊         | 7.00M/81.1M [00:04<00:28, 2.70MB/s]S3:  16%|█▌        | 13.0M/81.1M [00:04<00:11, 6.10MB/s]S3:  26%|██▌       | 21.0M/81.1M [00:04<00:05, 11.5MB/s]S3:  36%|███▌      | 29.0M/81.1M [00:04<00:03, 17.6MB/s]S3:  44%|████▍     | 36.0M/81.1M [00:05<00:02, 22.8MB/s]S3:  53%|█████▎    | 43.0M/81.1M [00:05<00:01, 28.4MB/s]S3:  60%|██████    | 49.0M/81.1M [00:05<00:01, 32.4MB/s]S3:  69%|██████▉   | 56.0M/81.1M [00:05<00:00, 38.6MB/s]S3:  78%|███████▊  | 63.0M/81.1M [00:05<00:00, 43.8MB/s]S3:  85%|████████▌ | 69.0M/81.1M [00:05<00:00, 46.5MB/s]S3:  92%|█████████▏| 75.0M/81.1M [00:05<00:00, 46.7MB/s]S3: 100%|██████████| 81.1M/81.1M [00:05<00:00, 44.9MB/s]S3: 100%|██████████| 81.1M/81.1M [00:05<00:00, 14.3MB/s]
+
+S3:   0%|          | 0.00/81.1M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/81.1M [00:04<05:37, 249kB/s]
+S3:   4%|▎         | 3.00M/81.1M [00:04<01:29, 919kB/s]
+S3:   9%|▊         | 7.00M/81.1M [00:04<00:28, 2.70MB/s]
+S3:  16%|█▌        | 13.0M/81.1M [00:04<00:11, 6.10MB/s]
+S3:  26%|██▌       | 21.0M/81.1M [00:04<00:05, 11.5MB/s]
+S3:  36%|███▌      | 29.0M/81.1M [00:04<00:03, 17.6MB/s]
+S3:  44%|████▍     | 36.0M/81.1M [00:05<00:02, 22.8MB/s]
+S3:  53%|█████▎    | 43.0M/81.1M [00:05<00:01, 28.4MB/s]
+S3:  60%|██████    | 49.0M/81.1M [00:05<00:01, 32.4MB/s]
+S3:  69%|██████▉   | 56.0M/81.1M [00:05<00:00, 38.6MB/s]
+S3:  78%|███████▊  | 63.0M/81.1M [00:05<00:00, 43.8MB/s]
+S3:  85%|████████▌ | 69.0M/81.1M [00:05<00:00, 46.5MB/s]
+S3:  92%|█████████▏| 75.0M/81.1M [00:05<00:00, 46.7MB/s]
+S3: 100%|██████████| 81.1M/81.1M [00:05<00:00, 44.9MB/s]
+S3: 100%|██████████| 81.1M/81.1M [00:05<00:00, 14.3MB/s]
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 Filtering raw data in 1 contiguous segment
 Setting up band-pass filter from 4 - 38 Hz
@@ -1611,40 +1649,25 @@ Subject 7: test acc = 85.76% (epoch 33/43)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/87.1M [00:00<?, ?B/s]S3:   1%|          | 1.00M/87.1M [00:01<01:40, 900kB/s]S3:   3%|▎         | 3.00M/87.1M [00:01<00:29, 2.98MB/s]S3:   6%|▌         | 5.00M/87.1M [00:01<00:16, 5.17MB/s]S3:  13%|█▎        | 11.0M/87.1M [00:01<00:05, 13.4MB/s]S3:  22%|██▏       | 19.0M/87.1M [00:01<00:03, 23.5MB/s]S3:  31%|███       | 27.0M/87.1M [00:01<00:01, 31.8MB/s]S3:  39%|███▉      | 34.0M/87.1M [00:01<00:01, 37.1MB/s]S3:  47%|████▋     | 41.0M/87.1M [00:02<00:01, 40.9MB/s]S3:  55%|█████▌    | 48.0M/87.1M [00:02<00:00, 47.7MB/s]S3:  62%|██████▏   | 54.0M/87.1M [00:02<00:00, 47.0MB/s]S3:  69%|██████▉   | 60.0M/87.1M [00:02<00:00, 49.8MB/s]S3:  76%|███████▌  | 66.0M/87.1M [00:02<00:00, 52.8MB/s]S3:  83%|████████▎ | 72.0M/87.1M [00:02<00:00, 51.6MB/s]S3:  90%|████████▉ | 78.0M/87.1M [00:02<00:00, 53.8MB/s]S3:  96%|█████████▋| 84.0M/87.1M [00:02<00:00, 52.2MB/s]S3: 100%|██████████| 87.1M/87.1M [00:03<00:00, 30.3MB/s]
+
+S3:   0%|          | 0.00/87.1M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/87.1M [00:01<01:40, 900kB/s]
+S3:   3%|▎         | 3.00M/87.1M [00:01<00:29, 2.98MB/s]
+S3:   6%|▌         | 5.00M/87.1M [00:01<00:16, 5.17MB/s]
+S3:  13%|█▎        | 11.0M/87.1M [00:01<00:05, 13.4MB/s]
+S3:  22%|██▏       | 19.0M/87.1M [00:01<00:03, 23.5MB/s]
+S3:  31%|███       | 27.0M/87.1M [00:01<00:01, 31.8MB/s]
+S3:  39%|███▉      | 34.0M/87.1M [00:01<00:01, 37.1MB/s]
+S3:  47%|████▋     | 41.0M/87.1M [00:02<00:01, 40.9MB/s]
+S3:  55%|█████▌    | 48.0M/87.1M [00:02<00:00, 47.7MB/s]
+S3:  62%|██████▏   | 54.0M/87.1M [00:02<00:00, 47.0MB/s]
+S3:  69%|██████▉   | 60.0M/87.1M [00:02<00:00, 49.8MB/s]
+S3:  76%|███████▌  | 66.0M/87.1M [00:02<00:00, 52.8MB/s]
+S3:  83%|████████▎ | 72.0M/87.1M [00:02<00:00, 51.6MB/s]
+S3:  90%|████████▉ | 78.0M/87.1M [00:02<00:00, 53.8MB/s]
+S3:  96%|█████████▋| 84.0M/87.1M [00:02<00:00, 52.2MB/s]
+S3: 100%|██████████| 87.1M/87.1M [00:03<00:00, 30.3MB/s]
 Finished downloading nm000139 v1.0.3.
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -1876,40 +1899,24 @@ Subject 8: test acc = 77.43% (epoch 32/42)
 This is nemar-py 0.3.3.
 Preparing to download nm000139 from https://data.nemar.org/
 Retrieving 6 of 769 manifest files (16 concurrent downloads).
-S3:   0%|          | 0.00/85.4M [00:00<?, ?B/s]S3:   1%|          | 1.00M/85.4M [00:04<06:09, 240kB/s]S3:   4%|▎         | 3.00M/85.4M [00:04<01:37, 883kB/s]S3:   8%|▊         | 7.00M/85.4M [00:04<00:31, 2.57MB/s]S3:  15%|█▌        | 13.0M/85.4M [00:04<00:13, 5.80MB/s]S3:  25%|██▍       | 21.0M/85.4M [00:04<00:06, 10.9MB/s]S3:  33%|███▎      | 28.0M/85.4M [00:05<00:03, 15.7MB/s]S3:  40%|███▉      | 34.0M/85.4M [00:05<00:02, 20.5MB/s]S3:  46%|████▌     | 39.0M/85.4M [00:05<00:02, 23.7MB/s]S3:  54%|█████▍    | 46.0M/85.4M [00:05<00:01, 28.6MB/s]S3:  63%|██████▎   | 54.0M/85.4M [00:05<00:00, 34.4MB/s]S3:  73%|███████▎  | 62.0M/85.4M [00:05<00:00, 38.0MB/s]S3:  82%|████████▏ | 70.0M/85.4M [00:06<00:00, 41.5MB/s]S3:  91%|█████████▏| 78.0M/85.4M [00:06<00:00, 43.6MB/s]S3:  99%|█████████▉| 84.7M/85.4M [00:06<00:00, 43.4MB/s]S3: 100%|██████████| 85.4M/85.4M [00:06<00:00, 14.0MB/s]
+
+S3:   0%|          | 0.00/85.4M [00:00<?, ?B/s]
+S3:   1%|          | 1.00M/85.4M [00:04<06:09, 240kB/s]
+S3:   4%|▎         | 3.00M/85.4M [00:04<01:37, 883kB/s]
+S3:   8%|▊         | 7.00M/85.4M [00:04<00:31, 2.57MB/s]
+S3:  15%|█▌        | 13.0M/85.4M [00:04<00:13, 5.80MB/s]
+S3:  25%|██▍       | 21.0M/85.4M [00:04<00:06, 10.9MB/s]
+S3:  33%|███▎      | 28.0M/85.4M [00:05<00:03, 15.7MB/s]
+S3:  40%|███▉      | 34.0M/85.4M [00:05<00:02, 20.5MB/s]
+S3:  46%|████▌     | 39.0M/85.4M [00:05<00:02, 23.7MB/s]
+S3:  54%|█████▍    | 46.0M/85.4M [00:05<00:01, 28.6MB/s]
+S3:  63%|██████▎   | 54.0M/85.4M [00:05<00:00, 34.4MB/s]
+S3:  73%|███████▎  | 62.0M/85.4M [00:05<00:00, 38.0MB/s]
+S3:  82%|████████▏ | 70.0M/85.4M [00:06<00:00, 41.5MB/s]
+S3:  91%|█████████▏| 78.0M/85.4M [00:06<00:00, 43.6MB/s]
+S3:  99%|█████████▉| 84.7M/85.4M [00:06<00:00, 43.4MB/s]
+S3: 100%|██████████| 85.4M/85.4M [00:06<00:00, 14.0MB/s]
 Finished downloading nm000139 v1.0.3.
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:497: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = mne.channels.make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
-/private/tmp/claude-501/-Users-semih2341-Desktop-BME-2026-27-1-Deep-Learning/483cdff7-ccfe-49c7-8bc5-85b6e2f7f761/scratchpad/venv/lib/python3.11/site-packages/braindecode/models/eegpt.py:1452: FutureWarning: Montage name 'standard_1020' is deprecated and will be removed in MNE 1.14. Use 'colin27_1020' instead.
-  montage = make_standard_montage("standard_1020")
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
