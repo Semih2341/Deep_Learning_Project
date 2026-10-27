@@ -1,8 +1,4 @@
-"""Collect per-subject result files into a CSV and a Markdown table.
-
-Usage:
-    python src/summarize.py --results-dir results
-"""
+"""Collect results/*/subject_*.json into summary.csv and summary.md."""
 
 import argparse
 import json
@@ -10,9 +6,9 @@ from pathlib import Path
 
 import pandas as pd
 
-TARGET_SUBJECT_3 = 83.7  # braindecode tutorial, 100 epochs
-# Schirrmeister et al. 2017, Table 2, ShallowConvNet on BCIC IV 2a
-PAPER_MEAN = {0.0: 73.7, 4.0: 71.9}  # by high-pass cut-off (0-38 Hz / 4-38 Hz)
+TARGET_SUBJECT_3 = 83.7  # tutorial
+# Schirrmeister et al. 2017, Table 2 (0-38 Hz / 4-38 Hz)
+PAPER_MEAN = {0.0: 73.7, 4.0: 71.9}
 
 
 def load_runs(results_dir):
@@ -36,7 +32,6 @@ def load_runs(results_dir):
 
 
 def seed_summary(df):
-    """Mean over subjects for each seed, then mean +- std over seeds."""
     lines = [
         "### Across seeds\n",
         "| Mode | Band | Seeds | Mean acc (%) over seeds | Subject 3 (%) |",

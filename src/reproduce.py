@@ -1,22 +1,7 @@
-"""Milestone 1 - Reproduce the braindecode cropped-decoding tutorial on BCIC IV 2a.
+"""M1: braindecode cropped decoding example (ShallowFBCSPNet, BCIC IV 2a), 100 epochs.
 
-Pipeline follows the braindecode example
-`examples/model_building/plot_bcic_iv_2a_moabb_cropped.py`
-(ShallowFBCSPNet, cropped training), with n_epochs raised from 4 to 100.
-
-Two evaluation modes are supported:
-
-* ``tutorial`` - exactly as in the example: the held-out session ("1test") is
-  passed as the validation split and EarlyStopping(patience=10, load_best=True)
-  restores the epoch with the lowest loss on it. This reproduces the reported
-  number but selects the checkpoint on test data.
-* ``clean``    - no validation split, no early stopping. The model is trained
-  for a fixed number of epochs and the final weights are evaluated once on the
-  held-out session. No decision is made using test data.
-
-Usage:
-    python src/reproduce.py --subjects 3 --mode tutorial
-    python src/reproduce.py --subjects all --mode clean --seed 20200220
+--mode tutorial: same as the example (test session used for early stopping)
+--mode clean:    fixed epochs, no early stopping, test session only for evaluation
 """
 
 import argparse
@@ -46,8 +31,8 @@ from skorch.helper import predefined_split
 DATASET_NAME = "BNCI2014_001"
 ALL_SUBJECTS = list(range(1, 10))
 
-# Hyperparameters from the tutorial
-LOW_CUT_HZ = 4.0  # tutorial; the paper's 73.7% uses 0-38 Hz (no high-pass)
+# from the tutorial
+LOW_CUT_HZ = 4.0
 HIGH_CUT_HZ = 38.0
 FACTOR_NEW = 1e-3
 INIT_BLOCK_SIZE = 1000
@@ -61,7 +46,6 @@ EARLY_STOPPING_PATIENCE = 10
 
 
 def set_data_dir(data_dir):
-    """Point MNE/MOABB downloads to a persistent folder (e.g. Google Drive)."""
     if data_dir is None:
         return
     import mne
@@ -72,11 +56,10 @@ def set_data_dir(data_dir):
 
 
 def load_dataset(subject_id, max_retries=5, wait_s=60):
-    """Download/load one subject; the BNCI server is sometimes down, so retry."""
     for attempt in range(1, max_retries + 1):
         try:
             return MOABBDataset(dataset_name=DATASET_NAME, subject_ids=[subject_id])
-        except Exception as err:  # network errors come in many types
+        except Exception as err:  # BNCI server is down sometimes
             if attempt == max_retries:
                 raise
             print(f"Download failed ({err!r}), retry {attempt}/{max_retries} in {wait_s}s")
@@ -126,7 +109,7 @@ def make_windows(dataset, n_preds_per_input):
 
 
 def trialwise_accuracy(clf, windows_set):
-    """Average crop predictions within each trial, then compare to the label."""
+    # average crop predictions per trial
     window_preds = clf.forward(windows_set, training=False).cpu().numpy()
     md = windows_set.get_metadata()
     trial_preds = trial_preds_from_window_preds(
@@ -243,7 +226,7 @@ def environment_info(device):
 
 
 def _to_json(obj):
-    if hasattr(obj, "item"):  # numpy scalars
+    if hasattr(obj, "item"):
         return obj.item()
     return str(obj)
 
@@ -255,7 +238,7 @@ def parse_subjects(arg):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    parser = argparse.ArgumentParser()
     parser.add_argument("--subjects", default="3", help='e.g. "3", "1,2,3" or "all"')
     parser.add_argument("--mode", choices=["tutorial", "clean"], default="tutorial")
     parser.add_argument("--epochs", type=int, default=100)
@@ -275,7 +258,6 @@ def main():
     for subject_id in parse_subjects(args.subjects):
         out_file = out_dir / f"subject_{subject_id:02d}.json"
         if out_file.exists() and not args.overwrite:
-            # lets a disconnected Colab session resume where it stopped
             print(f"Skipping subject {subject_id}: {out_file} exists")
             continue
         print(f"\n=== Subject {subject_id} | {run_name} ===")
