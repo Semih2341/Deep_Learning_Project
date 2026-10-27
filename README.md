@@ -15,7 +15,7 @@ or no calibration data.
 
 ## Team
 
-**Team name:** TEAM_NAME
+**Team name:** CetinxBen
 
 | Name | Neptun code |
 |---|---|
