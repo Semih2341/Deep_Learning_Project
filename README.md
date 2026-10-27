@@ -19,8 +19,8 @@ or no calibration data.
 
 | Name | Neptun code |
 |---|---|
-| Semih Çetin | NEPTUN_SEMIH |
-| Máté Benedek Lovas | NEPTUN_BEN |
+| Semih Çetin | E2NGJJ |
+| Lovas Máté Benedek | CSY0C9 |
 
 ## Data
 
