@@ -15,12 +15,12 @@ or no calibration data.
 
 ## Team
 
-**Team name:** TEAM_NAME
+**Team name:** CetinxBen
 
 | Name | Neptun code |
 |---|---|
-| Semih Çetin | NEPTUN_SEMIH |
-| Máté Benedek Lovas | NEPTUN_BEN |
+| Semih Çetin | E2NGJJ |
+| Lovas Máté Benedek | CSY0C9 |
 
 ## Data
 
