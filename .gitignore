@@ -5,3 +5,5 @@ __pycache__/
 mne_data/
 *.pt
 *.pkl
+data/
+*.npz

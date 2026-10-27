@@ -13,23 +13,77 @@ or no calibration data.
 | M2 – Improve | EEGNet, EEGConformer, augmentation, Euclidean alignment, leave-one-subject-out | – |
 | M3 – Contribute | Calibration trials, pretraining, channel / frequency analysis | – |
 
+## Team
+
+**Team name:** TEAM_NAME
+
+| Name | Neptun code |
+|---|---|
+| Semih Çetin | NEPTUN_SEMIH |
+| Máté Benedek Lovas | NEPTUN_BEN |
+
+## Data
+
+**Source.** BCI Competition IV, dataset 2a (Graz University of Technology; Brunner et al., 2008),
+hosted on the [BNCI Horizon 2020 database](https://bnci-horizon-2020.eu/database/data-sets)
+as *001-2014*. In MOABB it is called `BNCI2014_001`.
+
+**Download.** Automatic. `braindecode.datasets.MOABBDataset` asks MOABB for a subject, and MOABB
+downloads the original `.mat` files from the BNCI server on first use (~80 MB per subject). It
+caches them in the MNE data folder (`--data-dir`, or Google Drive on Colab) and returns MNE `Raw`
+objects. If the server is down, the download is retried up to 5 times.
+
+**Content.** 9 subjects × 2 sessions recorded on different days (`0train`, `1test`). Each session
+has 6 runs × 48 trials = 288 trials, balanced over 4 classes (left hand, right hand, feet, tongue;
+72 each). 22 EEG + 3 EOG channels at 250 Hz, 4 s of motor imagery after each cue.
+
+**Exploration** (`notebooks/00_data_exploration.ipynb`): class counts per subject and session,
+electrode layout, raw trials, and per-class power spectra at C3/C4. The spectra show the expected
+contralateral mu-band (8–13 Hz) decrease during hand imagery.
+
+**Preparation** (`src/reproduce.py`, same as the braindecode tutorial): keep the 22 EEG channels →
+V to µV → band-pass 4–38 Hz → exponential moving standardization → windows of 1000 samples from
+0.5 s before the cue → cropped decoding (467 crop predictions per window).
+
+**Train / validation / test** (`src/prepare_data.py`, within-subject, per subject):
+
+| Split | Source | Trials | Inputs `X` | Outputs `y` |
+|---|---|---|---|---|
+| train | session `0train`, runs 0–4 | 240 | (480, 22, 1000) | (480,) class index 0–3 |
+| valid | session `0train`, run 5 | 48 | (96, 22, 1000) | (96,) |
+| test | session `1test`, runs 0–5 | 288 | (576, 22, 1000) | (576,) |
+
+`X` is *(windows, channels, samples)*; each trial gives 2 windows. The validation run is held out
+from training and is used for model selection from Milestone 2 on. The test session is used only
+for the final evaluation. The M1 reproduction itself trains on the full `0train` session, as the
+tutorial does. Shapes for all 9 subjects are in `results/data_splits.json`.
+
 ## Repository structure
 
 ```
 ├── notebooks/
-│   └── 01_reproduce.ipynb   # Colab notebook for Milestone 1
+│   ├── 00_data_exploration.ipynb  # data source, exploration plots, preparation, train/valid/test output
+│   └── 01_reproduce.ipynb         # training + results of Milestone 1 (Colab or local)
 ├── src/
-│   ├── reproduce.py         # training + evaluation of one or more subjects
+│   ├── prepare_data.py      # builds the train / valid / test sets, writes results/data_splits.json
+│   ├── reproduce.py         # preprocessing, model, training + evaluation of one or more subjects
 │   └── summarize.py         # collects results into summary.csv / summary.md
 ├── results/
 │   ├── <mode>_seed<seed>/subject_XX.json   # per-subject results, history, predictions
 │   ├── logs/                # raw training logs
+│   ├── data_splits.json     # shapes and class counts of the splits, all subjects
 │   ├── summary.csv
 │   └── summary.md
+├── results_gpu/             # independent re-run of M1 on a second machine (GPU)
+├── REPRODUCTION_GPU.md      # comparison of the GPU re-run with the original runs
 └── requirements.txt
 ```
 
 ## Setup
+
+**Notebooks (run in this order):**
+1. `notebooks/00_data_exploration.ipynb`: data source, exploration, preparation, train/valid/test sets.
+2. `notebooks/01_reproduce.ipynb`: training and results.
 
 **Colab / Kaggle:** open `notebooks/01_reproduce.ipynb`. By default it only loads the stored
 results from `results/` and shows the tables and confusion matrices (no training). Set
@@ -41,6 +95,7 @@ PyTorch, installs only `braindecode` and `moabb`, and caches the dataset (BNCI20
 
 ```bash
 pip install torch -r requirements.txt
+python src/prepare_data.py --subjects all          # data: train/valid/test sets (optional: --save-npz data/)
 python src/reproduce.py --subjects all --mode tutorial --epochs 100
 python src/reproduce.py --subjects all --mode clean --epochs 100
 python src/reproduce.py --subjects all --mode clean --epochs 100 --low-cut 0   # paper band 0-38 Hz
