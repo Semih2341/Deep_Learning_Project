@@ -80,6 +80,8 @@ tutorial does. Shapes for all 9 subjects are in `results/data_splits.json`.
 ├── results_m2/              # M2: <protocol>_<model>[_ea][_aug]_seed<seed>/subject_XX.json, logs, summary
 ├── results_gpu/             # independent re-run of M1 on a second machine (GPU)
 ├── REPRODUCTION_GPU.md      # comparison of the GPU re-run with the original runs
+├── results_m2_mac/          # M2 B0 and E4 re-run on a second machine (CPU)
+├── REPRODUCTION_M2_MAC.md   # comparison of that re-run with results_m2/
 ├── run_m2.sh                # runs every M2 experiment
 └── requirements.txt
 ```
@@ -301,6 +303,12 @@ Chance level is 25 %. Per subject (test accuracy, valid-selected, mean over seed
 The same tables are in [`results_m2/summary.md`](results_m2/summary.md). Every run is stored in
 `results_m2/<protocol>_<model>[_ea][_aug]_seed<seed>/subject_XX.json` with its full validation
 history and test predictions. The notebook also shows validation curves and confusion matrices.
+
+**Second machine.** B0 and E4 were also run on a second machine (Apple M1 CPU, braindecode
+1.8.1, same seeds and split; [`REPRODUCTION_M2_MAC.md`](REPRODUCTION_M2_MAC.md)). B0 gives
+62.14 ± 1.64 % and E4 69.47 ± 2.23 %, so EA again improves every seed (+7.3 pp). After 100
+epochs both machines agree within 0.6 pp. The larger differences between valid-selected
+checkpoints come from the noisy 48-trial validation set (see Discussion).
 
 ### Discussion
 

@@ -1,0 +1,3 @@
+id,protocol,model,EA,aug,change,seeds,valid_mean,valid_std,test_mean,test_std,train_mean,last_mean,last_std,best_epoch_mean,delta_vs_baseline
+B0,within,shallow,False,False,"baseline: ShallowFBCSPNet (M1 model, trial-wise, valid-selected)",3,68.98,0.40,62.14,1.64,99.77,64.44,0.87,52.33,0.00
+E4,within,shallow,True,False,+ Euclidean alignment,3,70.99,2.25,69.47,2.23,100.00,70.91,1.29,41.81,7.33
