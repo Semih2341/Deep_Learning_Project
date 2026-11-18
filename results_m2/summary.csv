@@ -1,0 +1,11 @@
+id,protocol,model,EA,aug,change,seeds,valid_mean,valid_std,test_mean,test_std,train_mean,last_mean,last_std,best_epoch_mean,delta_vs_baseline
+B0,within,shallow,False,False,"baseline: ShallowFBCSPNet (M1 model, trial-wise, valid-selected)",3,68.67,2.07,60.58,1.33,99.60,64.03,0.10,40.33,0.00
+E1,within,eegnet,False,False,model → EEGNet,3,59.03,0.93,59.61,0.71,91.10,60.62,0.49,81.22,-0.98
+E2,within,conformer,False,False,model → EEGConformer,3,64.04,0.48,58.81,1.49,85.97,61.27,1.05,59.33,-1.77
+E3,within,shallow,False,True,+ data augmentation,3,69.37,1.04,65.05,1.18,99.83,66.55,1.08,64.22,4.46
+E4,within,shallow,True,False,+ Euclidean alignment,3,70.99,1.07,70.77,1.12,100.00,71.48,0.66,55.44,10.19
+L0,loso,shallow,False,False,"LOSO baseline: ShallowFBCSPNet, unseen subject",3,63.78,0.12,43.74,0.56,98.91,43.49,0.52,78.78,0.00
+L1,loso,shallow,True,False,+ Euclidean alignment,3,68.28,1.07,50.87,0.69,99.99,51.38,0.28,34.30,7.14
+L2,loso,eegnet,True,False,EEGNet + Euclidean alignment (vs. L1: model),3,65.63,0.38,51.54,1.36,84.59,52.47,1.00,54.37,7.81
+L3,loso,shallow,True,True,+ Euclidean alignment + augmentation (vs. L1: augmentation),3,69.94,0.54,53.59,0.95,99.93,53.31,1.18,49.33,9.85
+L4,loso,conformer,True,False,EEGConformer + Euclidean alignment (vs. L1: model),1,66.61,,50.93,,98.06,50.42,,57.33,7.19
